@@ -29,7 +29,7 @@ task :cask, [:tap] do |task, args|
   sh "brew", "ruby", "script/generate-cask.rb", args[:tap]
 end
 
-def generate_analytics?(os)
+def fetch_analytics?(os)
   return false if ENV["HOMEBREW_NO_ANALYTICS"]
 
   json_file = "_data/analytics#{"-linux" if os == "linux"}/build-error/30d.json"
@@ -40,70 +40,19 @@ def generate_analytics?(os)
   end_date < Date.today
 end
 
-def setup_analytics_credentials
-  ga_credentials = ".homebrew_analytics.json"
-  return unless File.exist?(ga_credentials)
-
-  ga_credentials_home = File.expand_path("~/#{ga_credentials}")
-  return if File.exist?(ga_credentials_home)
-
-  FileUtils.cp ga_credentials, ga_credentials_home
-end
-
-def setup_formula_analytics_cmd
-  ENV["HOMEBREW_NO_AUTO_UPDATE"] = "1"
-  unless `brew tap`.include?("homebrew/formula-analytics")
-    sh "brew", "tap", "Homebrew/formula-analytics"
-  end
-
-  sh "brew", "formula-analytics", "--setup"
-end
-
-def setup_analytics
-  setup_analytics_credentials
-  setup_formula_analytics_cmd
-end
-
-def generate_analytics_files(os)
-  analytics_data_path = "_data/analytics"
-  core_tap_name = config("taps", "core", "fullname").split("/").last
-  formula_analytics_os_arg = nil
-
-  if os == "linux"
-    analytics_data_path = "_data/analytics-linux"
-    core_tap_name = config("taps", "linux", "fullname").split("/").last
-    formula_analytics_os_arg = "--linux"
-  end
-
-  %w[build-error install cask-install install-on-request os-version
-     core-build-error core-install core-install-on-request].each do |category|
-    case category
-    when "core-build-error"
-      category = "all-core-formulae-json --build-error"
-      category_name = "build-error/#{core_tap_name}"
-    when "core-install"
-      category = "all-core-formulae-json --install"
-      category_name = "install/#{core_tap_name}"
-    when "core-install-on-request"
-      category = "all-core-formulae-json --install-on-request"
-      category_name = "install-on-request/#{core_tap_name}"
-    else
-      category_name = category
-    end
-
-    FileUtils.mkdir_p "#{analytics_data_path}/#{category_name}"
+def fetch_analytics_files(os)
+  %w[build-error install cask-install install-on-request].each do |category|
     %w[30 90 365].each do |days|
-      next if days != "30" && category_name == "build-error/#{core_tap_name}"
-      next if os == "linux" && %w[cask-install os-version].include?(category_name)
+      next if os == "linux" && %w[cask-install os-version].include?(category)
 
-      # The `--json` and `--all-core-formulae-json` flags are mutually
-      # exclusive, but we need to explicitly set `--json` sometimes,
-      # so only set it if we've not already set
-      # `--all-core-formulae-json`.
-      category_flags = category.include?("all-core-formulae-json") ? category : "json --#{category}"
+      path = Pathname.new "analytics#{os == "linux" ? "-linux" : ""}/#{category}/#{days}d.json"
+      outpath = Pathname.new "_data/#{path}"
 
-      sh "brew formula-analytics #{formula_analytics_os_arg} --days-ago=#{days} --#{category_flags}" \
-        "> #{analytics_data_path}/#{category_name}/#{days}d.json"
+      FileUtils.mkdir_p outpath.dirname
+      sh <<~SH
+        curl -qsSLf 'https://formulae.brew.sh/api/#{path}' |
+          jq '.items = [.items[] | select(.formula // .cask | test("^nodenv/"))]' > #{outpath}
+      SH
     end
   end
 end
@@ -112,11 +61,9 @@ desc "Dump analytics data"
 task :analytics, [:os] do |task, args|
   args.with_defaults(:os => "mac")
 
-  next unless generate_analytics?(args.os)
+  next unless fetch_analytics?(args[:os])
 
-  setup_analytics
-
-  generate_analytics_files(args.os)
+  fetch_analytics_files(args[:os])
 end
 
 desc "Dump macOS formulae and analytics data"
