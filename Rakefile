@@ -2,12 +2,18 @@ require "rake"
 require "rake/clean"
 require "json"
 require "date"
+require 'yaml'
+
+def config(*props)
+  @config ||= YAML.load_file('_config.yml')
+  props.empty? ? @config : @config.dig(*props)
+end
 
 task default: :formula_and_analytics
 
 desc "Dump macOS formulae data"
 task :formulae, [:os,:tap] do |task, args|
-  args.with_defaults(:os => "mac", :tap => "nodenv/nodenv")
+  args.with_defaults(:os => "mac", :tap => config("taps", "core", "name"))
 
   ENV["HOMEBREW_FORCE_HOMEBREW_ON_LINUX"] = "1" if args[:os] == "mac"
   ENV["HOMEBREW_NO_COLOR"] = "1"
@@ -16,7 +22,7 @@ end
 
 desc "Dump cask data"
 task :cask, [:tap] do |task, args|
-  args.with_defaults(:tap => "nodenv/cask")
+  args.with_defaults(:tap => config("taps", "cask", "name"))
 
   ENV["HOMEBREW_FORCE_HOMEBREW_ON_LINUX"] = "1"
   ENV["HOMEBREW_NO_COLOR"] = "1"
@@ -60,12 +66,12 @@ end
 
 def generate_analytics_files(os)
   analytics_data_path = "_data/analytics"
-  core_tap_name = "homebrew-nodenv"
+  core_tap_name = config("taps", "core", "fullname").split("/").last
   formula_analytics_os_arg = nil
 
   if os == "linux"
     analytics_data_path = "_data/analytics-linux"
-    core_tap_name = "linuxbrew-nodenv"
+    core_tap_name = config("taps", "linux", "fullname").split("/").last
     formula_analytics_os_arg = "--linux"
   end
 
