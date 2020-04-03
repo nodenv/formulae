@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.9.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fribidi-1.0.9.catalina.bottle.tar.gz",
           "sha256": "4064e6326b3ba81ba14ce6287231143295de208b47f448e9dc73c21a9c4ce513"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.9.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fribidi-1.0.9.mojave.bottle.tar.gz",
           "sha256": "ff1dc0448d33b1313bbc88915ed7fc21d15cda4991713d778ce72983bdd85335"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.9.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fribidi-1.0.9.high_sierra.bottle.tar.gz",
           "sha256": "3bf7f77c99b0c225610be974ccb3a3a1d364914eba7ced0ba450584e543a621c"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/fribidi-1.0.9.x86_64_linux.bottle.tar.gz",
-          "sha256": "e8e424016943dc2a8b3c4eacdbdc42042aaa495c95ed91a119fae96f7750b76a"
         }
       }
     }

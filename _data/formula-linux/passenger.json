@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/passenger-6.0.4_5.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/passenger-6.0.4_5.catalina.bottle.tar.gz",
           "sha256": "9d7dc612f7ed8a6ccf8f6656125495316fea033408be13c8887aa6a59897e6fd"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/passenger-6.0.4_5.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/passenger-6.0.4_5.mojave.bottle.tar.gz",
           "sha256": "6cb8fa498753ea841058ac85034c8a97ba896f7fef801a4451515bcf1cc8090c"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/passenger-6.0.4_5.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/passenger-6.0.4_5.high_sierra.bottle.tar.gz",
           "sha256": "75b8403329a81e17ef3a626decdf8deaebce29093dfc671d7182d827c6bb35a8"
         }
       }

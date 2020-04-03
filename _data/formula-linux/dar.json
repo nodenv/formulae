@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dar-2.6.9.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dar-2.6.9.catalina.bottle.tar.gz",
           "sha256": "f05679ced5d121523f008a3a2eb9dc0b1da35f09a1443d6233577343d26dfd02"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dar-2.6.9.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dar-2.6.9.mojave.bottle.tar.gz",
           "sha256": "9f4b02440b3711787ca24c5bf9901654093f7c4364bfd2c9f9c45413c6880cd7"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dar-2.6.9.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dar-2.6.9.high_sierra.bottle.tar.gz",
           "sha256": "d372eb12e3b783c910d4fc31d834e4dd61104dadc6e63dd273829951af66fd55"
         }
       }

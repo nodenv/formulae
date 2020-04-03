@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/bandwhich-0.12.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/bandwhich-0.12.0.catalina.bottle.tar.gz",
           "sha256": "310b4b97575f46da8bff2e4e7362c9931f2e29c4e02de76ab81bc304cc3d736d"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/bandwhich-0.12.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/bandwhich-0.12.0.mojave.bottle.tar.gz",
           "sha256": "3a8e1969176673037b44961f650ad659df0214b801210e310a7e245072fbeb1a"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/bandwhich-0.12.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/bandwhich-0.12.0.high_sierra.bottle.tar.gz",
           "sha256": "62eac4e3da9092103f95e0a43a76959263978df0018f70430eb3f695391143cf"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/bandwhich-0.12.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "6c13dde46068a8cc81eb4f7b5384bea1bd80e4a527ab30eaf72df38a9d89fe48"
         }
       }
     }

@@ -28,30 +28,26 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/krb5-1.18.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/krb5-1.18.catalina.bottle.tar.gz",
           "sha256": "d71c0a4c545daa56558c27a7073d0c9a44825374136c68b9089bd4f137912cc6"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/krb5-1.18.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/krb5-1.18.mojave.bottle.tar.gz",
           "sha256": "88fb8afbea9dee3d4deb76f6d3059e1782a503ec587a3fffb62ebcb4d92d3b48"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/krb5-1.18.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/krb5-1.18.high_sierra.bottle.tar.gz",
           "sha256": "197acc476020f30796fa8651a7382edb63a40bbf2a4907dc726e0a4185287a5a"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/krb5-1.18.x86_64_linux.bottle.tar.gz",
-          "sha256": "b9a3c51709fbefe5d01cfbe372d40ca62949c88bd8fc19ece8827a33303ff31e"
         }
       }
     }
   },
-  "keg_only": false,
+  "keg_only": true,
   "bottle_disabled": false,
   "options": [
 
@@ -60,8 +56,7 @@
 
   ],
   "dependencies": [
-    "openssl@1.1",
-    "bison"
+    "openssl@1.1"
   ],
   "recommended_dependencies": [
 
@@ -70,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "bison"
   ],
   "requirements": [
 
@@ -80,7 +75,22 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "1.18",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "runtime_dependencies": [
+        {
+          "full_name": "openssl@1.1",
+          "version": "1.1.1d"
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
   "linked_keg": null,
   "pinned": false,

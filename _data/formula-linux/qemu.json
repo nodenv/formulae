@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/qemu-4.2.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/qemu-4.2.0.catalina.bottle.tar.gz",
           "sha256": "738f6075543fc5868177dcc5567ea1ce29feaedc711233e829dded7a546a2abc"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/qemu-4.2.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/qemu-4.2.0.mojave.bottle.tar.gz",
           "sha256": "596804c80583519921f950caa3ff204a01b690ffdaffb5d17005c48fd9414a33"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/qemu-4.2.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/qemu-4.2.0.high_sierra.bottle.tar.gz",
           "sha256": "fdc09f69c8364c6911439e0f869b3bfa0829217ecfd7f054f1e593fc0692d881"
         }
       }

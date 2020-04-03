@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.14.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pyqt-5.14.0.catalina.bottle.tar.gz",
           "sha256": "e2abbfd19a3b2e9c52f2c1c4fb84cc752f832b616a89c1138ab74cad96d95584"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.14.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pyqt-5.14.0.mojave.bottle.tar.gz",
           "sha256": "5026dd96d99bb8866d2a2b3bf1bc55d66f9ddbd39e9180ee7c921481b49f39b9"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.14.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pyqt-5.14.0.high_sierra.bottle.tar.gz",
           "sha256": "32f1de6e98558bbf79e31771cfa6bce4206bac12108f384324006c1a18209dfc"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/pyqt-5.14.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "9c8f6436e6566abe179cad1337ebcfbeec74dd4cc92d9a9998258cb87ba12a73"
         }
       }
     }

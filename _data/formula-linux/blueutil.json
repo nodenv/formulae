@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.6.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/blueutil-2.6.0.catalina.bottle.tar.gz",
           "sha256": "9e82b1bcb5a3737fb75474f4f1e793f1954d6cc2ebf8cde4c538efc046998dbf"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.6.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/blueutil-2.6.0.mojave.bottle.tar.gz",
           "sha256": "151d723172aaf7acd9b23cf2a0b41f0fe5100357f511fea170cf34bc05093bb5"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/blueutil-2.6.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/blueutil-2.6.0.high_sierra.bottle.tar.gz",
           "sha256": "afceca3182b5a43540b44c2b61bb0d510888f0744e924468ee3208d8ab612a4a"
         }
       }
@@ -68,7 +68,15 @@
 
   ],
   "requirements": [
-
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ]
+    }
   ],
   "conflicts_with": [
 

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/console_bridge-0.4.4.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/console_bridge-0.4.4.catalina.bottle.tar.gz",
           "sha256": "3bb19cb882a45c902423f226a51638dc72db201589a7575c585e8239a41e009d"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/console_bridge-0.4.4.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/console_bridge-0.4.4.mojave.bottle.tar.gz",
           "sha256": "aea1327f4b80efdd3fc30396fd4fbb480220f9e685d93a83255806d468ea9ea0"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/console_bridge-0.4.4.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/console_bridge-0.4.4.high_sierra.bottle.tar.gz",
           "sha256": "64532f4b44e228941aca08681dbae1591f189b4d8c9ce7a26c80e1f6cadb3633"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/console_bridge-0.4.4.x86_64_linux.bottle.tar.gz",
-          "sha256": "8739196d46812f208764473f3fac8550a585f8e2f0b3a15167848063821bc367"
         }
       }
     }

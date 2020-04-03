@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.5.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/multimarkdown-6.5.1.catalina.bottle.tar.gz",
           "sha256": "aa4b46bc273d2afeb082a8a3d81cfdcebbdae947bca417962d2cb5cf0debc42f"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.5.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/multimarkdown-6.5.1.mojave.bottle.tar.gz",
           "sha256": "aa4b46bc273d2afeb082a8a3d81cfdcebbdae947bca417962d2cb5cf0debc42f"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.5.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/multimarkdown-6.5.1.high_sierra.bottle.tar.gz",
           "sha256": "1e2a03d1dc7bc2b14f7b051480c20f9692e67bfe05b3313f518fc27f344f858b"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/multimarkdown-6.5.1.x86_64_linux.bottle.tar.gz",
-          "sha256": "87697e113c7a52aef5da775ddc5b0814f8a6032c85908836b0d81b691b83b6b1"
         }
       }
     }

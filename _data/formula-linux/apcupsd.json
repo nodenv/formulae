@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 3,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/apcupsd-3.14.14.catalina.bottle.3.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/apcupsd-3.14.14.catalina.bottle.3.tar.gz",
           "sha256": "6bdbc101891e5c10b8aead1e1c86ce8ed1560f38b4de96a6c804c73953ad3ac0"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/apcupsd-3.14.14.mojave.bottle.3.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/apcupsd-3.14.14.mojave.bottle.3.tar.gz",
           "sha256": "f9e745573abb55d0194e958d48256ace18a8116fc2c7577617de915746e6c18b"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/apcupsd-3.14.14.high_sierra.bottle.3.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/apcupsd-3.14.14.high_sierra.bottle.3.tar.gz",
           "sha256": "8e604286ac22168ede829d3dff95ac782b458316c3389827c6d6c5168a2552e4"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/apcupsd-3.14.14.x86_64_linux.bottle.3.tar.gz",
-          "sha256": "49fed93d2fa6250a53e982d61b2cfe1e0d3ad9c897d318f2bb90708fbbe1e683"
         }
       }
     }
@@ -78,7 +74,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": "For apcupsd to be able to communicate with UPSes connected via USB,\nthe kernel extension must be installed by the root user:\n\n  sudo cp -pR $(brew --prefix)/Cellar/apcupsd/3.14.14/Library/Extensions/ApcupsdDummy.kext /System/Library/Extensions/\n  sudo chown -R root:wheel /System/Library/Extensions/ApcupsdDummy.kext\n  sudo touch /System/Library/Extensions/\n\nTo load apcupsd at startup, activate the included Launch Daemon:\n\n  sudo cp $(brew --prefix)/Cellar/apcupsd/3.14.14/lib/Library/LaunchDaemons/org.apcupsd.apcupsd.plist /Library/LaunchDaemons\n  sudo chmod 644 /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n  sudo launchctl load -w /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n\nIf this is an upgrade and you already have the Launch Daemon loaded, you\nhave to unload the Launch Daemon before reinstalling it:\n\n  sudo launchctl unload -w /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n  sudo rm /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n",
+  "caveats": "For apcupsd to be able to communicate with UPSes connected via USB,\nthe kernel extension must be installed by the root user:\n\n  sudo cp -pR $(brew --prefix)/Cellar/apcupsd/3.14.14/Library/Extensions/ApcupsdDummy.kext /System/Library/Extensions/\n  sudo chown -R root:wheel /System/Library/Extensions/ApcupsdDummy.kext\n  sudo touch /System/Library/Extensions/\n\nNote: On OS X El Capitan and above, the kernel extension currently\ndoes not work as expected.\n\nYou will have to unplug and plug the USB cable back in after each\nreboot in order for apcupsd to be able to connect to the UPS.\n\nTo load apcupsd at startup, activate the included Launch Daemon:\n\n  sudo cp $(brew --prefix)/Cellar/apcupsd/3.14.14/lib/Library/LaunchDaemons/org.apcupsd.apcupsd.plist /Library/LaunchDaemons\n  sudo chmod 644 /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n  sudo launchctl load -w /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n\nIf this is an upgrade and you already have the Launch Daemon loaded, you\nhave to unload the Launch Daemon before reinstalling it:\n\n  sudo launchctl unload -w /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n  sudo rm /Library/LaunchDaemons/org.apcupsd.apcupsd.plist\n",
   "installed": [
 
   ],

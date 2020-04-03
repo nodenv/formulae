@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/git-gui-2.26.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/git-gui-2.26.0.catalina.bottle.tar.gz",
           "sha256": "d74e6b1f0efe641c8f0c663fe3a19c2d8557b91d779e1bedb5c5445278790444"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/git-gui-2.26.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/git-gui-2.26.0.mojave.bottle.tar.gz",
           "sha256": "d74e6b1f0efe641c8f0c663fe3a19c2d8557b91d779e1bedb5c5445278790444"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/git-gui-2.26.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/git-gui-2.26.0.high_sierra.bottle.tar.gz",
           "sha256": "d74e6b1f0efe641c8f0c663fe3a19c2d8557b91d779e1bedb5c5445278790444"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/git-gui-2.26.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "ff4534c0c3e6a048339a41df2fbf563e54ff7055b99346cdecd03092afd15c43"
         }
       }
     }

@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.100.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/msitools-0.100.catalina.bottle.tar.gz",
           "sha256": "f9b65f68c973c323e96a0492df562bae32e3ede79d9e5a6f24b89f53ef085883"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.100.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/msitools-0.100.mojave.bottle.tar.gz",
           "sha256": "b7646423954ae62a8dcb8ee413f98e0f5e1c4b8a73876255fcd2f0371e547f92"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/msitools-0.100.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/msitools-0.100.high_sierra.bottle.tar.gz",
           "sha256": "fd8689ba0902ed4d784f85969d281a0e1c58bb76f0fe17a93d96ba2d3f845cdb"
         }
       }

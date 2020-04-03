@@ -29,23 +29,23 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/chkrootkit-0.53.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/chkrootkit-0.53.catalina.bottle.tar.gz",
           "sha256": "23a9f903721d19c0b6201163cb937823970c66592f094c673b1de1036da8bef9"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/chkrootkit-0.53.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/chkrootkit-0.53.mojave.bottle.tar.gz",
           "sha256": "286de88eef77a53b9c7fab85ef3cec8b9876cf49a48910cbb591e44c9ca5d631"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/chkrootkit-0.53.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/chkrootkit-0.53.high_sierra.bottle.tar.gz",
           "sha256": "55ab9957505513fd81d670c54e5ad1834fb72ae9cda7bd7cbc63f98feeccf24a"
         },
         "sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/chkrootkit-0.53.sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/chkrootkit-0.53.sierra.bottle.tar.gz",
           "sha256": "f16966e93433cb877b04be8ea086c8a23905290643099229ffa3d665b2d11994"
         }
       }

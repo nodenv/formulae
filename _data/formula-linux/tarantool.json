@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/tarantool-2.3.1.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/tarantool-2.3.1.1.catalina.bottle.tar.gz",
           "sha256": "5a0606dea3b83bea8f39644a3d4562d1f1286f29ba3a4e66be25259b84de0b58"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/tarantool-2.3.1.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/tarantool-2.3.1.1.mojave.bottle.tar.gz",
           "sha256": "d73e46173f0ddf6b7e2782d153599d2e9f07027889a2fc59f0479644190291f7"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/tarantool-2.3.1.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/tarantool-2.3.1.1.high_sierra.bottle.tar.gz",
           "sha256": "f2921e158f4204f535440bf1ad8d7e8d42c07b3964092851d0efeb888aa59293"
         }
       }

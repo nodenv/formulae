@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.20.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ldc-1.20.1.catalina.bottle.tar.gz",
           "sha256": "122d9a37cccbd671d223a2ce683ad141489633d2f11fa8f662635f6ba4a49027"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.20.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ldc-1.20.1.mojave.bottle.tar.gz",
           "sha256": "67f9bdd412e9ee9e6864f52ae5b52358a01b93de359fe8aad4b9d7bed73a572a"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.20.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ldc-1.20.1.high_sierra.bottle.tar.gz",
           "sha256": "7945dba30bfac0ced442b69a46a477593ee04e3b3f28cc6fdb56b94f58e94706"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/ldc-1.20.1.x86_64_linux.bottle.tar.gz",
-          "sha256": "f422d9aeb3a6be820e49e55a342372a8bc2b08c43798331df374309ecb7774e7"
         }
       }
     }
@@ -58,8 +54,7 @@
   ],
   "build_dependencies": [
     "cmake",
-    "pkg-config",
-    "libxml2"
+    "libconfig"
   ],
   "dependencies": [
     "llvm"

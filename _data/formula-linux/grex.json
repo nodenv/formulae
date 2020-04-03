@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/grex-1.0.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/grex-1.0.0.catalina.bottle.tar.gz",
           "sha256": "90050fb3e32743d9d3f2ed89e04942b11996d1de1dbc9cf16ac68d0556b1429b"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/grex-1.0.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/grex-1.0.0.mojave.bottle.tar.gz",
           "sha256": "2f0e00fd6bcea11069e26d0079dc326b5111319630c54132816f401d532ddce0"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/grex-1.0.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/grex-1.0.0.high_sierra.bottle.tar.gz",
           "sha256": "3d31d46adb5eb71ee68095f80e619b4890eff95d024be8934bd27373ed6de12f"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/grex-1.0.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "b5b8a253f5a9f4da2748ce79d1bea7d54494b91735a0cf63c80aa5ee9954ec3c"
         }
       }
     }

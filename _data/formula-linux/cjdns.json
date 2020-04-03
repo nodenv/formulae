@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.5.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cjdns-20.5.catalina.bottle.tar.gz",
           "sha256": "5939291f77f7f90d1867c7f1e001da71d388b04a06742d8895cbbaf4d3a06971"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.5.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cjdns-20.5.mojave.bottle.tar.gz",
           "sha256": "6f526ee74df572fd99dd6641732040e5f147013d30d2e4c194c98c3c9acc1f61"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/cjdns-20.5.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cjdns-20.5.high_sierra.bottle.tar.gz",
           "sha256": "589b70433d38ef5b7f5b04553b4a200327797c35836cb36ae472325d4855eb4a"
         }
       }

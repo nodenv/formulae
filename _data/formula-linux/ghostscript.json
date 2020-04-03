@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/ghostscript-9.52.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ghostscript-9.52.catalina.bottle.tar.gz",
           "sha256": "8cd0efa1e5525f849be3ee1e50e1635b99667cb4d1eb6c3002a45378346882f4"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/ghostscript-9.52.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ghostscript-9.52.mojave.bottle.tar.gz",
           "sha256": "8906a4dbf2513963a4710f351e3426622c259bd888c760e4c08a9436860b4014"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/ghostscript-9.52.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ghostscript-9.52.high_sierra.bottle.tar.gz",
           "sha256": "cd5e55d0429d7e88ba2d580e79934c157d5bd2981d71a7f40db4573abe79af67"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/ghostscript-9.52.x86_64_linux.bottle.tar.gz",
-          "sha256": "aaaf9ccc219b445e2a798656533596b8aa77e1eed69d1ee95882e22259561416"
         }
       }
     }
@@ -60,10 +56,7 @@
     "pkg-config"
   ],
   "dependencies": [
-    "libtiff",
-    "libidn",
-    "fontconfig",
-    "linuxbrew/xorg/xorg"
+    "libtiff"
   ],
   "recommended_dependencies": [
 

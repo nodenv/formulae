@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.19.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dlib-19.19.catalina.bottle.tar.gz",
           "sha256": "8ae2a8809bfe9eb63be8ec74adb0be4d84a84b80d6e31b090d7c17537b0adf12"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.19.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dlib-19.19.mojave.bottle.tar.gz",
           "sha256": "8eff561df45210fe1a71101d62ecd8b3ae1055d49e7c0442735b60bffe4dc034"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.19.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dlib-19.19.high_sierra.bottle.tar.gz",
           "sha256": "394c9aeeb51f9fa1c0cc5fc3b8343e42a3b439e27ac1a938c0d993bb6a0712eb"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/dlib-19.19.x86_64_linux.bottle.tar.gz",
-          "sha256": "336c29ed813be966c45949c68a6114ad5ac6fc1e07bf274de79975a3e10a353e"
         }
       }
     }
@@ -74,7 +70,15 @@
 
   ],
   "requirements": [
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.11",
+      "contexts": [
 
+      ]
+    }
   ],
   "conflicts_with": [
 

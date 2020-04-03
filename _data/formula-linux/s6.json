@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/s6-2.9.1.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/s6-2.9.1.0.catalina.bottle.tar.gz",
           "sha256": "14e7c8e7cdec7dce8de18d5aa0a651b67aef5891ab82ed5feffc0e93768b4c8e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/s6-2.9.1.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/s6-2.9.1.0.mojave.bottle.tar.gz",
           "sha256": "cdb4b89814cbc5f59cfe0ea536a29a8e93d13abeb727f78a829c7e44b00ebb34"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/s6-2.9.1.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/s6-2.9.1.0.high_sierra.bottle.tar.gz",
           "sha256": "9d5d57b1f781d6cda6a4358be131244eeb292158cba2af1ab50e4b1408ddedd1"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/s6-2.9.1.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "85423138cd47660b535dd84281c403d358c32c9dd99f9adb588e983c843a1cfb"
         }
       }
     }

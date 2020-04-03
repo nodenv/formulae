@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/transmission-cli-2.94_2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/transmission-cli-2.94_2.catalina.bottle.tar.gz",
           "sha256": "9b8fbc3736ab6996736d0d53622f4e05399db8f53d3f8323c8d203d84886e753"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/transmission-cli-2.94_2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/transmission-cli-2.94_2.mojave.bottle.tar.gz",
           "sha256": "2bba4f2cf7ffde53a658897f3855100ae0e3b795f231ed33a06eb9941b90793b"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/transmission-cli-2.94_2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/transmission-cli-2.94_2.high_sierra.bottle.tar.gz",
           "sha256": "2e81c3beb940cf1d8ffe15fcfea9361109ba2538fb176f91a4f51da8824bf24c"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/transmission-cli-2.94_2.x86_64_linux.bottle.tar.gz",
-          "sha256": "a4157ee397f005b4154b42fe8fa940a17fc966f1e3d750b3a77612fbacda9c27"
         }
       }
     }
@@ -61,9 +57,7 @@
   ],
   "dependencies": [
     "libevent",
-    "openssl@1.1",
-    "curl",
-    "zlib"
+    "openssl@1.1"
   ],
   "recommended_dependencies": [
 
@@ -72,7 +66,8 @@
 
   ],
   "uses_from_macos": [
-
+    "curl",
+    "zlib"
   ],
   "requirements": [
 

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/watchexec-1.12.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/watchexec-1.12.0.catalina.bottle.tar.gz",
           "sha256": "68d7edc0ee04c4ca08da96bbb33039343481bfc5cd0bc7a2fe79170477ead26e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/watchexec-1.12.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/watchexec-1.12.0.mojave.bottle.tar.gz",
           "sha256": "70ba21650ecee850450f952746dde08b1dd9db7efd2ae83803c2e60684263576"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/watchexec-1.12.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/watchexec-1.12.0.high_sierra.bottle.tar.gz",
           "sha256": "becd5c5c29c12b4f962b416b0428caece88d221ce2086e11faa73318c6ba396b"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/watchexec-1.12.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "ca4492ae19a19bd034458d868f2489b2d1bf023218d93791be0707869a7b3cf9"
         }
       }
     }

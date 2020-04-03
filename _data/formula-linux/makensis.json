@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.05.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/makensis-3.05.catalina.bottle.tar.gz",
           "sha256": "348b4b8c905eebcb4b981348beace630806e7d22bec5f52c345946c41579a85e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.05.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/makensis-3.05.mojave.bottle.tar.gz",
           "sha256": "5a5d075b298e34c2ac5c0324675f8163cdff0f906d1cb38848640394ff1f66fc"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/makensis-3.05.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/makensis-3.05.high_sierra.bottle.tar.gz",
           "sha256": "d6614f82109ed400dca5a0215d256c522c47480e63fe36196570fec8ad0dcbe8"
         }
       }

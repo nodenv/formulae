@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/fio-3.19.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fio-3.19.catalina.bottle.tar.gz",
           "sha256": "252dd7cba1c767568b9ecb13fbbd891e1ffe47f590ed126cfea8214ff20333f5"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/fio-3.19.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fio-3.19.mojave.bottle.tar.gz",
           "sha256": "2b4b3372f9ad040eb974ba38ecdde11c08b0328fae71d785e5d0b88c77ecffc3"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/fio-3.19.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/fio-3.19.high_sierra.bottle.tar.gz",
           "sha256": "89e47c70a1cca2e1acf29b97720da6b968348ea93a5e417fdca7ad86d670114d"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/fio-3.19.x86_64_linux.bottle.tar.gz",
-          "sha256": "36e4581c322b86af955360a9986647ed433cff09029e47e67450d65dc9a95766"
         }
       }
     }
@@ -60,7 +56,7 @@
 
   ],
   "dependencies": [
-    "zlib"
+
   ],
   "recommended_dependencies": [
 
@@ -69,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

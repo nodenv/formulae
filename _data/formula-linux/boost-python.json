@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/boost-python-1.72.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/boost-python-1.72.0.catalina.bottle.tar.gz",
           "sha256": "c15c8bf03d5ca454c93782648f700c1149c164bec8334561ef3727eee0f0435a"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/boost-python-1.72.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/boost-python-1.72.0.mojave.bottle.tar.gz",
           "sha256": "12e538b3468eff6e1afe41cbe595a389473ad37972fbc1ea69a5abc37ead890e"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/boost-python-1.72.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/boost-python-1.72.0.high_sierra.bottle.tar.gz",
           "sha256": "d0ff391db5f8864d6025e654708a84629aba54d59bdf7b366a6eb7cdca808918"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/boost-python-1.72.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "a1216a35ca5e7ef9b116263756d5c8c546cf16f4626284403b94388ec6f05e82"
         }
       }
     }
@@ -60,8 +56,7 @@
 
   ],
   "dependencies": [
-    "boost",
-    "python@2"
+    "boost"
   ],
   "recommended_dependencies": [
 
@@ -70,18 +65,10 @@
 
   ],
   "uses_from_macos": [
-
+    "python@2"
   ],
   "requirements": [
-    {
-      "name": "macos",
-      "cask": null,
-      "download": null,
-      "version": null,
-      "contexts": [
 
-      ]
-    }
   ],
   "conflicts_with": [
 

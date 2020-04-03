@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 1,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.catalina.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dtrx-7.1.catalina.bottle.1.tar.gz",
           "sha256": "ff3e436e50818837831ef16ca26f7d2760603bdd44d97fffefdc28dcde5fed2b"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.mojave.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dtrx-7.1.mojave.bottle.1.tar.gz",
           "sha256": "a63cfb21c2db4163521db20851b581d739a6707315fbb0f690f470ff697c8965"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dtrx-7.1.high_sierra.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dtrx-7.1.high_sierra.bottle.1.tar.gz",
           "sha256": "a63cfb21c2db4163521db20851b581d739a6707315fbb0f690f470ff697c8965"
         }
       }

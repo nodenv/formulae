@@ -29,28 +29,24 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/volt-0.3.7.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/volt-0.3.7.catalina.bottle.tar.gz",
           "sha256": "60210297f62f908ef4090a7f69631ad02cb4fe2ce8472e953f67ad91caa9461c"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/volt-0.3.7.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/volt-0.3.7.mojave.bottle.tar.gz",
           "sha256": "9db9e940c124e8e655cdd84b7d143f526535c588ebd6503acb3960143d08f905"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/volt-0.3.7.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/volt-0.3.7.high_sierra.bottle.tar.gz",
           "sha256": "7fd8887efcdc3a9816b2dea510c2e3ba218e0e719390841d3b0b416fde53378e"
         },
         "sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/volt-0.3.7.sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/volt-0.3.7.sierra.bottle.tar.gz",
           "sha256": "4edc3f1130757ddbf0a7b3c018825f68f2ecb24417f3afc3fd54b532e8c72c46"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/volt-0.3.7.x86_64_linux.bottle.tar.gz",
-          "sha256": "4240f91c96fac27606cb8f538aa7c1d3d2db9eb94810dfdf149b1c1a97deaf6e"
         }
       }
     }

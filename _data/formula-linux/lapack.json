@@ -28,30 +28,26 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/lapack-3.9.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lapack-3.9.0.catalina.bottle.tar.gz",
           "sha256": "c5f8a726a57ffe294cfc488752ed2ad9f15e76ab211be020834df4f196b81b59"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/lapack-3.9.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lapack-3.9.0.mojave.bottle.tar.gz",
           "sha256": "47760f1eba02ad2c66f536acfff97e4bafaff4c6088822c8547f7df35a92fb33"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/lapack-3.9.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lapack-3.9.0.high_sierra.bottle.tar.gz",
           "sha256": "25833d6cbc3e54bb2c055727865ddd3ab74ffb53bf5a7fb285e73f9f5737ad05"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/lapack-3.9.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "352d76569b6f71e389087ac266ea0bdf8563e472fde7b3697886ef86e0b2f45b"
         }
       }
     }
   },
-  "keg_only": false,
+  "keg_only": true,
   "bottle_disabled": false,
   "options": [
 

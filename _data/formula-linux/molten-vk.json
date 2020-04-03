@@ -29,15 +29,15 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/molten-vk-1.0.40.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/molten-vk-1.0.40.catalina.bottle.tar.gz",
           "sha256": "a4bebfdffac3b756cf7cee2e8a72870ffebb7fb742dc18a1ca707c99c3beab02"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/molten-vk-1.0.40.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/molten-vk-1.0.40.mojave.bottle.tar.gz",
           "sha256": "182a30cf86e6b47613e1abd7a958f7ba5bcecc92b9bc7c50ff3cdddb6df7e8fc"
         }
       }

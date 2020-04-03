@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.29.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/yaz-5.29.0.catalina.bottle.tar.gz",
           "sha256": "423462d7fb8b09af13f55c6402462e9e33f6065a8243dd7bcf6e8641edea1d43"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.29.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/yaz-5.29.0.mojave.bottle.tar.gz",
           "sha256": "7cab69c8ba33ded05ad0b64ebb7f35c2ea5559c56fd4162692db892f01c6d67a"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.29.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/yaz-5.29.0.high_sierra.bottle.tar.gz",
           "sha256": "0f78076d5738ee0ca613122d2e524f99f7941dec1366ca213ddfb38b85778b01"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/yaz-5.29.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "9a2f442448d6fd92f3f04905522c55cef09b314ad9c3b4046e398124325d5f9d"
         }
       }
     }
@@ -60,8 +56,7 @@
     "pkg-config"
   ],
   "dependencies": [
-    "icu4c",
-    "libxml2"
+    "icu4c"
   ],
   "recommended_dependencies": [
 
@@ -70,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "libxml2"
   ],
   "requirements": [
 

@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/lftp-4.9.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lftp-4.9.1.catalina.bottle.tar.gz",
           "sha256": "88341463e443203acace85f22c68bfecc1e374e97c3bc61a4d55992a7894dbdc"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/lftp-4.9.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lftp-4.9.1.mojave.bottle.tar.gz",
           "sha256": "7fb04159e36521d586e023c99ac6f63d3a695e6043ae62645c68da964776eebc"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/lftp-4.9.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lftp-4.9.1.high_sierra.bottle.tar.gz",
           "sha256": "54a5bfc00d589ffec053ceb367cb1acee8ad1d13a5549eeda097f9b3fb5c92e2"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/lftp-4.9.1.x86_64_linux.bottle.tar.gz",
-          "sha256": "8ea1054ff032558e75fa82fe3a93eb742fca42171ad2e8b45c71fc52d6e5b018"
         }
       }
     }
@@ -62,8 +58,7 @@
   "dependencies": [
     "libidn",
     "openssl@1.1",
-    "readline",
-    "zlib"
+    "readline"
   ],
   "recommended_dependencies": [
 
@@ -72,7 +67,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

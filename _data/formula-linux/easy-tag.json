@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/easy-tag-2.4.3_2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/easy-tag-2.4.3_2.mojave.bottle.tar.gz",
           "sha256": "52f2f77282dba441fac171c123788cb48de619308f4b1726e7e2c68e13b07ee2"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/easy-tag-2.4.3_2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/easy-tag-2.4.3_2.high_sierra.bottle.tar.gz",
           "sha256": "88f0ad1c24e8c4baba55dd760e540b2bc3905e3e6cfb35be23f358b7006cd1a8"
         },
         "sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/easy-tag-2.4.3_2.sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/easy-tag-2.4.3_2.sierra.bottle.tar.gz",
           "sha256": "82ed5509af9fd9eb2847eecc75ec3c181ac159c8d8efccb9de356dd72d1b8151"
         }
       }

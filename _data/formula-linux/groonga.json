@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/groonga-9.1.2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/groonga-9.1.2.catalina.bottle.tar.gz",
           "sha256": "17e2e6407f06f290c184b26adb72a0eddccec95da99ca60e4706edf25cad38ac"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/groonga-9.1.2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/groonga-9.1.2.mojave.bottle.tar.gz",
           "sha256": "42ea775611a44e237c71b746b51b0bea4d66a54f04e91902e9cfce7932f5f838"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/groonga-9.1.2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/groonga-9.1.2.high_sierra.bottle.tar.gz",
           "sha256": "fbc42125cf805368d6de3f6e8ea8504811703f5ac6376529fa982d173774afea"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/groonga-9.1.2.x86_64_linux.bottle.tar.gz",
-          "sha256": "7d6cdd64501d16d5b3dbea9816d108be7afebffd6d35a891d155efb59ac77cd4"
         }
       }
     }

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.7.8.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ccache-3.7.8.catalina.bottle.tar.gz",
           "sha256": "0f0bf49831d1469fb89b508fb6ee93c48d648d2f25c012c82ae4b05cd432ccff"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.7.8.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ccache-3.7.8.mojave.bottle.tar.gz",
           "sha256": "82627c2ab9ed1b728e480dafcfc9d8be0f0d3a5f909699c434fc7606a3dfc6b6"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.7.8.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/ccache-3.7.8.high_sierra.bottle.tar.gz",
           "sha256": "e7090229972da6f590d1915a0e6812f2a8a2e0b1d14027c9ad793bdafd86b64f"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/ccache-3.7.8.x86_64_linux.bottle.tar.gz",
-          "sha256": "43c5bb0350972ca8c65e3d144c1d6b5b954a818a83de71f0818bcd2ce6d3422a"
         }
       }
     }
@@ -60,7 +56,7 @@
 
   ],
   "dependencies": [
-    "zlib"
+
   ],
   "recommended_dependencies": [
 
@@ -69,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

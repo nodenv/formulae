@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/automake-1.16.2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.catalina.bottle.tar.gz",
           "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/automake-1.16.2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.mojave.bottle.tar.gz",
           "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/automake-1.16.2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/automake-1.16.2.high_sierra.bottle.tar.gz",
           "sha256": "fe26d4df57481b6a7ca0a6915c37c53648c27ffb41926b3570c45f80fdd8888e"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/automake-1.16.2.x86_64_linux.bottle.tar.gz",
-          "sha256": "58010f1a4c69947d29d90b64c5accba7246f0e7b7507bcf57076ccdc1dc41a3d"
         }
       }
     }
@@ -79,9 +75,24 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "1.16.2",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "runtime_dependencies": [
+        {
+          "full_name": "autoconf",
+          "version": "2.69"
+        }
+      ],
+      "installed_as_dependency": null,
+      "installed_on_request": null
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "1.16.2",
   "pinned": false,
   "outdated": false
 }

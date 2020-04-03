@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dmtx-utils-0.7.6_1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dmtx-utils-0.7.6_1.catalina.bottle.tar.gz",
           "sha256": "b769c72ede0c30f8d66fa831a0228e1896a59bee2c1edb833cc983ffad647ff3"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dmtx-utils-0.7.6_1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dmtx-utils-0.7.6_1.mojave.bottle.tar.gz",
           "sha256": "2aa5a9010d8aa229b81b7b571739131420a33643814b93d23de55547ac7c0202"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dmtx-utils-0.7.6_1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dmtx-utils-0.7.6_1.high_sierra.bottle.tar.gz",
           "sha256": "dc6b4de991219302c6cc12f6bfc4ef867469f76278f77e0b7bed41e07e27f598"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/dmtx-utils-0.7.6_1.x86_64_linux.bottle.tar.gz",
-          "sha256": "3026fcaa10b6b0d87e3614aa5fad4c1d6c870e8ee1818631e99aa7b826ddcc27"
         }
       }
     }

@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.16.2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gst-editing-services-1.16.2.catalina.bottle.tar.gz",
           "sha256": "08d783fd326d9c40cb2ec12b236d0fa560be509f364b2725e4e806855416e11d"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.16.2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gst-editing-services-1.16.2.mojave.bottle.tar.gz",
           "sha256": "e049cdc2cfe546f1367bb7b680e4b13dc013a1ff6f9c8175b63cadd200c8a875"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gst-editing-services-1.16.2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gst-editing-services-1.16.2.high_sierra.bottle.tar.gz",
           "sha256": "db19177293d74892f5770fe76e57ee7c5cf42e3ab4e06c7e32c376053473882d"
         }
       }

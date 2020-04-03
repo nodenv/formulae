@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.64.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gjs-1.64.1.catalina.bottle.tar.gz",
           "sha256": "44435c559ec592e03cb5b29039c5cae9fdf935f3eea10ab4e2c2a60d24e126e0"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.64.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gjs-1.64.1.mojave.bottle.tar.gz",
           "sha256": "35a77106b673b6b615a9d56b48078e11a8e33960326f5a37e9c5fc3ecfdb3659"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gjs-1.64.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gjs-1.64.1.high_sierra.bottle.tar.gz",
           "sha256": "62125121215aac4e71de2369723668b8b40e5426522f753ab68235fbe1e9c527"
         }
       }

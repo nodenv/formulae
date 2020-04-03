@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/wget-1.20.3_2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.catalina.bottle.tar.gz",
           "sha256": "ef65c759c5097a36323fa9c77756468649e8d1980a3a4e05695c05e39568967c"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/wget-1.20.3_2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.mojave.bottle.tar.gz",
           "sha256": "28f4090610946a4eb207df102d841de23ced0d06ba31cb79e040d883906dcd4f"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/wget-1.20.3_2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.high_sierra.bottle.tar.gz",
           "sha256": "91dd0caca9bd3f38c439d5a7b6f68440c4274945615fae035ff0a369264b8a2f"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/wget-1.20.3_2.x86_64_linux.bottle.tar.gz",
-          "sha256": "c6cd0e129ff133307530846f45280872d516b82bb5346f5193e1603f3b3dc34a"
         }
       }
     }
@@ -61,8 +57,7 @@
   ],
   "dependencies": [
     "libidn2",
-    "openssl@1.1",
-    "util-linux"
+    "openssl@1.1"
   ],
   "recommended_dependencies": [
 
@@ -81,9 +76,36 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "1.20.3_2",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "runtime_dependencies": [
+        {
+          "full_name": "gettext",
+          "version": "0.20.1"
+        },
+        {
+          "full_name": "libunistring",
+          "version": "0.9.10"
+        },
+        {
+          "full_name": "libidn2",
+          "version": "2.3.0"
+        },
+        {
+          "full_name": "openssl@1.1",
+          "version": "1.1.1d"
+        }
+      ],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "1.20.3_2",
   "pinned": false,
   "outdated": false
 }

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/x265-3.3.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/x265-3.3.catalina.bottle.tar.gz",
           "sha256": "81909d142c67d3228c55e6eae8819b9101d4256179322703df007f1ff8f4df18"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/x265-3.3.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/x265-3.3.mojave.bottle.tar.gz",
           "sha256": "242d1f5a737a53054d071d36e57d3f86aa7f3387b5622b18c706ae6847476d22"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/x265-3.3.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/x265-3.3.high_sierra.bottle.tar.gz",
           "sha256": "4e8eb694bd3775d6725cd486c9abe812ac82f353c06f4d294a278f4a3a96b916"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/x265-3.3.x86_64_linux.bottle.tar.gz",
-          "sha256": "71fe45307f12b83b60240260cee2e73c2b1bec18e050b9899b192bf2034a5940"
         }
       }
     }
@@ -80,9 +76,21 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "3.3",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "runtime_dependencies": [
+
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "3.3",
   "pinned": false,
   "outdated": false
 }

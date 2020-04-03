@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/vice-3.4_1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/vice-3.4_1.catalina.bottle.tar.gz",
           "sha256": "b65fbef8066263ccd42679a2b9ed9f3d438ff75a5d8c097dcf04ffb5fa1b1e43"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/vice-3.4_1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/vice-3.4_1.mojave.bottle.tar.gz",
           "sha256": "65380e5bdb80143cfbd668fe45c385b7715faa6baa8f109707003be3fb410efb"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/vice-3.4_1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/vice-3.4_1.high_sierra.bottle.tar.gz",
           "sha256": "d2532e0ccc1a84a9896a611c9ac7eac15342f7ebbaedba7c0b29f36c178a0c27"
         }
       }

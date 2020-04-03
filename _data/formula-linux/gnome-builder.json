@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnome-builder-3.30.3_3.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnome-builder-3.30.3_3.catalina.bottle.tar.gz",
           "sha256": "b0cfb15c0b728bf3311b133bca3245dc17ab58439f858f4b1bb49380179b1504"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnome-builder-3.30.3_3.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnome-builder-3.30.3_3.mojave.bottle.tar.gz",
           "sha256": "a2ca627ea2b14071b0baa5cf3de47c4dd21c65d29b226ed1c29a4b35ce591997"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnome-builder-3.30.3_3.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnome-builder-3.30.3_3.high_sierra.bottle.tar.gz",
           "sha256": "ac6044003a145a5f18864cfc8a1b4ada3b109f8d57c31219a42a862f51f5784a"
         }
       }

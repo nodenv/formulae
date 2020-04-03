@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.3.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/abcde-2.9.3.mojave.bottle.tar.gz",
           "sha256": "6994f8e32417a1630b2680c96bcae3de5c430976de0dc66056e5687070473f19"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.3.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/abcde-2.9.3.high_sierra.bottle.tar.gz",
           "sha256": "6994f8e32417a1630b2680c96bcae3de5c430976de0dc66056e5687070473f19"
         },
         "sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/abcde-2.9.3.sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/abcde-2.9.3.sierra.bottle.tar.gz",
           "sha256": "7fbfff0c184bef38f29580ec587d5edb473699eaad29bb15e686d2634c070737"
         }
       }

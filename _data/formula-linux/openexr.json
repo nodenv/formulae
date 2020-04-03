@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.4.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openexr-2.4.1.catalina.bottle.tar.gz",
           "sha256": "436a68a4101b82d9abe8f21045efa6d5912a4a6bb070614cc04a88487a0b8372"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.4.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openexr-2.4.1.mojave.bottle.tar.gz",
           "sha256": "d9cfcbd95203891e434ed18ffba6cc7e3ccf30295258b9335fa75ab385e74311"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.4.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openexr-2.4.1.high_sierra.bottle.tar.gz",
           "sha256": "834e89287ea987db4d6e392dd523c3ef193a991f44e015d54f7b40e1f49b48d0"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/openexr-2.4.1.x86_64_linux.bottle.tar.gz",
-          "sha256": "2cbfb115aa4a7a863550012d7d41c9cb323a9d02df76dc1312b7a564aa7b6925"
         }
       }
     }
@@ -61,8 +57,7 @@
     "pkg-config"
   ],
   "dependencies": [
-    "ilmbase",
-    "zlib"
+    "ilmbase"
   ],
   "recommended_dependencies": [
 
@@ -71,7 +66,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 
@@ -81,9 +76,24 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "2.4.1",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "runtime_dependencies": [
+        {
+          "full_name": "ilmbase",
+          "version": "2.4.1"
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "2.4.1",
   "pinned": false,
   "outdated": false
 }

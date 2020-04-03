@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/nudoku-2.0.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/nudoku-2.0.0.catalina.bottle.tar.gz",
           "sha256": "42af644b71eee33e827eb588221eddc0a2b16d552907f9bd80116177e91b748a"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/nudoku-2.0.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/nudoku-2.0.0.mojave.bottle.tar.gz",
           "sha256": "c31813e8e20e6a7f3869bd0869d21e24877ee15de9f00f7eaf812bc81244418f"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/nudoku-2.0.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/nudoku-2.0.0.high_sierra.bottle.tar.gz",
           "sha256": "fabdc0fc21df7b01f097ae89884d8234d8efe1a3b4335a4d2897f98df5291e67"
         }
       }
@@ -58,8 +58,7 @@
     "pkg-config"
   ],
   "dependencies": [
-    "gettext",
-    "ncurses"
+    "gettext"
   ],
   "recommended_dependencies": [
 
@@ -68,7 +67,7 @@
 
   ],
   "uses_from_macos": [
-
+    "ncurses"
   ],
   "requirements": [
 

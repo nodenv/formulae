@@ -29,28 +29,24 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.11.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libestr-0.1.11.catalina.bottle.tar.gz",
           "sha256": "f539c76e3acdd0a93def55a0e82ecf45c53de65dc6dc18fd123efe815d8a65cd"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.11.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libestr-0.1.11.mojave.bottle.tar.gz",
           "sha256": "543dcd541a69d52d5d1d21d51d0cf57c1617cc177f743c2dfea8ea3d548b93e8"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.11.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libestr-0.1.11.high_sierra.bottle.tar.gz",
           "sha256": "7f17c5dbb6534afe6b37ae1d1f994d3387cd8527d6aaa768604837ac681eee59"
         },
         "sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.11.sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libestr-0.1.11.sierra.bottle.tar.gz",
           "sha256": "5ff130cf6aa42842636dd90b7a8e7e60adbb289682bd915c98937b032c38fc54"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/libestr-0.1.11.x86_64_linux.bottle.tar.gz",
-          "sha256": "cd938799f312f00e4b1752e92b89dc31cfb30b680fea6e57c1ae7e74e9374d2d"
         }
       }
     }

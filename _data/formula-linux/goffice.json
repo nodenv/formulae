@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.46.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/goffice-0.10.46.catalina.bottle.tar.gz",
           "sha256": "0fe21687f0305ad07a1accb75eb6235490aae734c2b11262e20b62c7ee4968c3"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.46.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/goffice-0.10.46.mojave.bottle.tar.gz",
           "sha256": "5cdf0c352915329f46093c916ec4c5c2adecf6a7c46f695e70a9cb7e4f2fedae"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.46.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/goffice-0.10.46.high_sierra.bottle.tar.gz",
           "sha256": "faf193d186c3a95533149ee9df8a360e83c277687dbf7a43150b7fe299ee190e"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/goffice-0.10.46.x86_64_linux.bottle.tar.gz",
-          "sha256": "3ee6e9b70987a3de3bbbc4697d1603ada8d6e773688a0c3c28e54b60b552f532"
         }
       }
     }
@@ -69,8 +65,7 @@
     "libgsf",
     "librsvg",
     "pango",
-    "pcre",
-    "libxslt"
+    "pcre"
   ],
   "recommended_dependencies": [
 
@@ -79,7 +74,7 @@
 
   ],
   "uses_from_macos": [
-
+    "libxslt"
   ],
   "requirements": [
 

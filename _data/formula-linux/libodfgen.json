@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 1,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/libodfgen-0.1.7.catalina.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libodfgen-0.1.7.catalina.bottle.1.tar.gz",
           "sha256": "25fb42ad5715c87c0a23547b59515aa5c0d7cba2e0a5d09d2d2a8eeb06217677"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/libodfgen-0.1.7.mojave.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libodfgen-0.1.7.mojave.bottle.1.tar.gz",
           "sha256": "f90434da376c3af4b55640d1c5a870c28339a9174dfda56b7bc79dc6b6b60ec8"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/libodfgen-0.1.7.high_sierra.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/libodfgen-0.1.7.high_sierra.bottle.1.tar.gz",
           "sha256": "b80178fdbf5ca0816879466adc8fbedd671d57db3378ee3c708fefdf9b8f87e3"
         }
       }

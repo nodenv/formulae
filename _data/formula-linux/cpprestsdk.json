@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/cpprestsdk-2.10.15.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cpprestsdk-2.10.15.catalina.bottle.tar.gz",
           "sha256": "4b81bff905939ccfdce5d58c94e43f9853986ea54925c9ebafc8fd4d8cfcfba6"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/cpprestsdk-2.10.15.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cpprestsdk-2.10.15.mojave.bottle.tar.gz",
           "sha256": "7947cbaf52d95183265440e7b36bbe479f99855ffee13b14ba602d85f10a6e5a"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/cpprestsdk-2.10.15.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cpprestsdk-2.10.15.high_sierra.bottle.tar.gz",
           "sha256": "7071f74a30f5aeff050e40240f416942deba245d68ca624600206819be5e0dbb"
         }
       }

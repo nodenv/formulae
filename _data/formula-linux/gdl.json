@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.34.0_1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gdl-3.34.0_1.catalina.bottle.tar.gz",
           "sha256": "72213f48c641e747ee4e5f57d99f5f6b58281def3979fd9bbd4b10d43fac94f1"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.34.0_1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gdl-3.34.0_1.mojave.bottle.tar.gz",
           "sha256": "be37ffff8627cd687027fa38bc67e1e19dac530caeff7c6e26a1d4c58cb7219b"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.34.0_1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gdl-3.34.0_1.high_sierra.bottle.tar.gz",
           "sha256": "0d014a840abbe39750efa407a6a9bc49b542dd875e07eb541cf234307f41b276"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/gdl-3.34.0_1.x86_64_linux.bottle.tar.gz",
-          "sha256": "71d8493e3d5563b181063e5c132cbea28e33420325bf20a99ea9c74b9470afbc"
         }
       }
     }

@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/lmod-8.3.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lmod-8.3.catalina.bottle.tar.gz",
           "sha256": "b99901e7902295931dafde6806b35c38d8240b17c9e4595868e091839ac97228"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/lmod-8.3.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lmod-8.3.mojave.bottle.tar.gz",
           "sha256": "52c56206228f1e982c2e4a8461b79ef541e767937da471eb1e3800cfb50d575b"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/lmod-8.3.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/lmod-8.3.high_sierra.bottle.tar.gz",
           "sha256": "f16f54b1dc1210a01d5978a1e0f76c1d71f56bd4e4b0fcd5d3d13e395de2d692"
         }
       }

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.catalina.bottle.tar.gz",
           "sha256": "2fddc49ef9d3b064f1663d98c34a7c9b042dd529da8eb02b490aad3fde21775e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.mojave.bottle.tar.gz",
           "sha256": "2fddc49ef9d3b064f1663d98c34a7c9b042dd529da8eb02b490aad3fde21775e"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.high_sierra.bottle.tar.gz",
           "sha256": "2fddc49ef9d3b064f1663d98c34a7c9b042dd529da8eb02b490aad3fde21775e"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/gsettings-desktop-schemas-3.36.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "fd0f71cee039e76670d53a5edc64495a0a40b3cfcc3da59c3023faab60a94235"
         }
       }
     }
@@ -64,8 +60,7 @@
   ],
   "dependencies": [
     "glib",
-    "python",
-    "expat"
+    "python"
   ],
   "recommended_dependencies": [
 
@@ -74,7 +69,7 @@
 
   ],
   "uses_from_macos": [
-
+    "expat"
   ],
   "requirements": [
 

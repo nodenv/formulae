@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1410_1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/you-get-0.4.1410_1.catalina.bottle.tar.gz",
           "sha256": "58831026cf9e75bf6e64593b5801575fa6813bc5f467128c58cf5567f7a93593"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1410_1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/you-get-0.4.1410_1.mojave.bottle.tar.gz",
           "sha256": "00c0171d2bb859189e776bd49533d904680858a7584f9135bc4af2db69f61453"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1410_1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/you-get-0.4.1410_1.high_sierra.bottle.tar.gz",
           "sha256": "99542b4f6a4e32e3d63319935b74f273f8fb1ed995fa03bd1ccb39d0430c8341"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/you-get-0.4.1410_1.x86_64_linux.bottle.tar.gz",
-          "sha256": "5a3d458e16ba7969f9e927010295277c3f9b774d5b9211a85dc51bae27482461"
         }
       }
     }

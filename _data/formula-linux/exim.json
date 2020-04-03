@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/exim-4.93.0.4.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/exim-4.93.0.4.catalina.bottle.tar.gz",
           "sha256": "f31d37d1402ba863051e37097c8450f6459dcd1fffb080c437af587cb0ef106d"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/exim-4.93.0.4.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/exim-4.93.0.4.mojave.bottle.tar.gz",
           "sha256": "6dc2283760c7196639cb9ad90a4fd73bb0a869969aa3b22799c5a430295228fd"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/exim-4.93.0.4.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/exim-4.93.0.4.high_sierra.bottle.tar.gz",
           "sha256": "0dcca0007f092e720db484159cca69f1d00d86dcbc8a45e59252b135611c691c"
         }
       }

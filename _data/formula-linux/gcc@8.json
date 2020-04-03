@@ -28,25 +28,21 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gcc@8-8.4.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gcc@8-8.4.0.catalina.bottle.tar.gz",
           "sha256": "897437c92ba302e98a02cc97bea758cf6d8710ea3a95480f8f831d85f402043e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gcc@8-8.4.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gcc@8-8.4.0.mojave.bottle.tar.gz",
           "sha256": "b04eef27d4adeae8bf0ecbecdc1110fc205dae904676331da14e1d61691cd6c3"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gcc@8-8.4.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gcc@8-8.4.0.high_sierra.bottle.tar.gz",
           "sha256": "78347e1d891d69625931d07a7ab63baefab30f90d465bbb8189807563ad2030d"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/gcc@8-8.4.0.x86_64_linux.bottle.tar.gz",
-          "sha256": "05b801f94aae4774187a196085e386fe33e65b281b450000684c1f9021477d4f"
         }
       }
     }
@@ -54,10 +50,7 @@
   "keg_only": false,
   "bottle_disabled": false,
   "options": [
-    {
-      "option": "--with-glibc",
-      "description": "Build with glibc support"
-    }
+
   ],
   "build_dependencies": [
 
@@ -66,14 +59,13 @@
     "gmp",
     "isl",
     "libmpc",
-    "mpfr",
-    "zlib"
+    "mpfr"
   ],
   "recommended_dependencies": [
 
   ],
   "optional_dependencies": [
-    "glibc"
+
   ],
   "uses_from_macos": [
 

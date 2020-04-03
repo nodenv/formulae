@@ -7,9 +7,7 @@
     "openjdk@13"
   ],
   "versioned_formulae": [
-    "openjdk@11",
-    "openjdk@10",
-    "openjdk@9"
+    "openjdk@11"
   ],
   "desc": "Development kit for the Java programming language",
   "homepage": "https://openjdk.java.net/",
@@ -32,24 +30,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/openjdk-13.0.2+8_2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openjdk-13.0.2+8_2.catalina.bottle.tar.gz",
           "sha256": "65adca036393f528e3830cab8b0aafec94be870de087d94cfe098fd593517307"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/openjdk-13.0.2+8_2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openjdk-13.0.2+8_2.mojave.bottle.tar.gz",
           "sha256": "6034ec5a0927803eae37a5e85b6c6efadb930527827b45ecc593e25a9750061c"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/openjdk-13.0.2+8_2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openjdk-13.0.2+8_2.high_sierra.bottle.tar.gz",
           "sha256": "358101f25201e4c942297223d854ef95003798fe5396ebc671efa359c27e3d22"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/openjdk-13.0.2+8_2.x86_64_linux.bottle.tar.gz",
-          "sha256": "68e4b312ecabd1aa36cf2b70b5a1ab4f8de0f77cd1eaf66448af4091db137b6a"
         }
       }
     }
@@ -60,21 +54,10 @@
 
   ],
   "build_dependencies": [
-    "autoconf",
-    "pkg-config"
+    "autoconf"
   ],
   "dependencies": [
-    "alsa-lib",
-    "cups",
-    "fontconfig",
-    "unzip",
-    "zip",
-    "linuxbrew/xorg/libx11",
-    "linuxbrew/xorg/libxext",
-    "linuxbrew/xorg/libxrandr",
-    "linuxbrew/xorg/libxrender",
-    "linuxbrew/xorg/libxt",
-    "linuxbrew/xorg/libxtst"
+
   ],
   "recommended_dependencies": [
 

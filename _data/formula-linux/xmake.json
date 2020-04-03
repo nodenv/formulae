@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.3.2.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/xmake-2.3.2.catalina.bottle.tar.gz",
           "sha256": "559737626a485e267995fa648059adff6de109837fa0510219e3354e2884d909"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.3.2.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/xmake-2.3.2.mojave.bottle.tar.gz",
           "sha256": "bb8ccdd2d63eea78a4e6cd6cce7f1569c9cb17a1b895a0f141dcbe21fa60ccd6"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/xmake-2.3.2.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/xmake-2.3.2.high_sierra.bottle.tar.gz",
           "sha256": "64b7f43e8db1406158be9939f33d102578bbd18b01c9f5a94285e51bd244de83"
         }
       }
@@ -56,7 +56,7 @@
 
   ],
   "dependencies": [
-    "readline"
+
   ],
   "recommended_dependencies": [
 

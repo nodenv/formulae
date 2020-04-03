@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/openvdb-7.0.0_1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openvdb-7.0.0_1.catalina.bottle.tar.gz",
           "sha256": "d2d9f1a4dd5983cd22eab1b569c6c50ae501584cab1812a1d3ad36f57a3eb0f2"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/openvdb-7.0.0_1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openvdb-7.0.0_1.mojave.bottle.tar.gz",
           "sha256": "a9f7ebf1aec1579173f4923b6ce5e107a60631e47ab3ffeeb0c3656fe97fefcb"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/openvdb-7.0.0_1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/openvdb-7.0.0_1.high_sierra.bottle.tar.gz",
           "sha256": "8ff45c14d9d2d7c499834a775d1796dbeff7f985a25a4023f184a96a361594a6"
         }
       }

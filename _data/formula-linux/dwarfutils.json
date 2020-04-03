@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20200114.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dwarfutils-20200114.catalina.bottle.tar.gz",
           "sha256": "7a752aaf0ef830de3bef1041516ecb1efc505e577b67deb690c9d38b99fbaeeb"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20200114.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dwarfutils-20200114.mojave.bottle.tar.gz",
           "sha256": "12c22459b32e39867a9943b958de8fecdc311a233f1b80722ecebca44fb5ce50"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20200114.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dwarfutils-20200114.high_sierra.bottle.tar.gz",
           "sha256": "7e815620405e86d932cba7502cbf8ee63fd786fb18258a0318d4ca9680f8912e"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/dwarfutils-20200114.x86_64_linux.bottle.tar.gz",
-          "sha256": "42c1fb7a0ac814903a1dc40306763a6e0dba04fd07ff6aad6a8e2f5438a3e7fd"
         }
       }
     }
@@ -57,11 +53,10 @@
 
   ],
   "build_dependencies": [
-
+    "libelf"
   ],
   "dependencies": [
-    "libelf",
-    "zlib"
+
   ],
   "recommended_dependencies": [
 
@@ -70,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.24.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/stone-soup-0.24.0.catalina.bottle.tar.gz",
           "sha256": "4a1647599ab29da11bc0bcb6f57f9554b3d1315e044637bfffe7a1518cab0e92"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.24.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/stone-soup-0.24.0.mojave.bottle.tar.gz",
           "sha256": "0f8c131437b46bf836a852386ee2155f759ddee3ab5d672c68a3416fce409248"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/stone-soup-0.24.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/stone-soup-0.24.0.high_sierra.bottle.tar.gz",
           "sha256": "ebdc756c9a25432d009c259e2e47b3c7e78b0ba579f29c4c67d475b10486bf76"
         }
       }

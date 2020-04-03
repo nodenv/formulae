@@ -29,19 +29,19 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/cdk8s-0.17.0.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cdk8s-0.17.0.catalina.bottle.tar.gz",
           "sha256": "c333ced11c6b223508a81a15f15cb1e721be449ba87aa81a7e404c268653bb8e"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/cdk8s-0.17.0.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cdk8s-0.17.0.mojave.bottle.tar.gz",
           "sha256": "405172e2b1915d3b26e8f23e9c21313202a629ede8a33914bab545f33ef8d8f6"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/cdk8s-0.17.0.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/cdk8s-0.17.0.high_sierra.bottle.tar.gz",
           "sha256": "ded6342607087efad56cd1aeafcc6b1fecc9ddc4ffe272d039dfa156155e4373"
         }
       }

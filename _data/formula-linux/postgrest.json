@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 1,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": ":any",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/postgrest-6.0.2.catalina.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/postgrest-6.0.2.catalina.bottle.1.tar.gz",
           "sha256": "0faf148fc9d7e2335d0e8914ef4a705b1489ba7b848853d0cfafbdc3fd4a7c37"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/postgrest-6.0.2.mojave.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/postgrest-6.0.2.mojave.bottle.1.tar.gz",
           "sha256": "6a9bef86530f93884fe167bd146e277f4433202ef22c5fc142ac3aa654150ad4"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/postgrest-6.0.2.high_sierra.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/postgrest-6.0.2.high_sierra.bottle.1.tar.gz",
           "sha256": "de1af5d881a13d20e4b742f108a141ef846d6b222b88a71f69eee384241b6ac9"
         }
       }

@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/agda-2.6.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/agda-2.6.1.catalina.bottle.tar.gz",
           "sha256": "0781eb7d7503b64f1d4646b0fe8f7c5ae41dbda83e3397994eb690e2c0e5a4a1"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/agda-2.6.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/agda-2.6.1.mojave.bottle.tar.gz",
           "sha256": "2fbca2d6e6f6569b39befb0fbaea02ea09681014563e5c39fb04e8911f3fda0c"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/agda-2.6.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/agda-2.6.1.high_sierra.bottle.tar.gz",
           "sha256": "f1312e5307c3f022e7244bc7780bebbd8422f4e1d61a50618f4406485648b292"
         }
       }
@@ -58,8 +58,7 @@
   "dependencies": [
     "cabal-install",
     "emacs",
-    "ghc",
-    "zlib"
+    "ghc"
   ],
   "recommended_dependencies": [
 
@@ -68,7 +67,7 @@
 
   ],
   "uses_from_macos": [
-
+    "zlib"
   ],
   "requirements": [
 

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 1,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/pacvim-1.1.1.catalina.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pacvim-1.1.1.catalina.bottle.1.tar.gz",
           "sha256": "85bd0087ecc54716772881e46ce00553ee037eb2ea200d34d5db28709092369f"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/pacvim-1.1.1.mojave.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pacvim-1.1.1.mojave.bottle.1.tar.gz",
           "sha256": "e2ecd6cc1337adb4c9e760c50a83ae04a8cb86495d3c1ea167bfa5930d7a16a0"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/pacvim-1.1.1.high_sierra.bottle.1.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/pacvim-1.1.1.high_sierra.bottle.1.tar.gz",
           "sha256": "b8ef8cdba34802db97fba770e013393973e908e11486b87a4f5189f139e468dc"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/pacvim-1.1.1.x86_64_linux.bottle.1.tar.gz",
-          "sha256": "9a304c39ddb8a1e9680ec916e92faa291eac7f406f01e76141ab16a1e7051f70"
         }
       }
     }
@@ -60,7 +56,7 @@
 
   ],
   "dependencies": [
-    "ncurses"
+
   ],
   "recommended_dependencies": [
 
@@ -69,7 +65,7 @@
 
   ],
   "uses_from_macos": [
-
+    "ncurses"
   ],
   "requirements": [
 

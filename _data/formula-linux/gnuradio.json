@@ -28,20 +28,20 @@
   "bottle": {
     "stable": {
       "rebuild": 0,
-      "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "cellar": "/usr/local/Cellar",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_14.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnuradio-3.7.13.4_14.catalina.bottle.tar.gz",
           "sha256": "74aa8a8d8c32be557ea8a8864cb8617e82a939e667b73e11c45da13d72b52a3a"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_14.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnuradio-3.7.13.4_14.mojave.bottle.tar.gz",
           "sha256": "ee2e794d854ab87e00ca35805d4f57232d49e688df5e71a7e9e448883402f540"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/gnuradio-3.7.13.4_14.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/gnuradio-3.7.13.4_14.high_sierra.bottle.tar.gz",
           "sha256": "ae53bf0abbdda23f25a45829483a6d1e03f096447289f2df72a6855be7af1619"
         }
       }
@@ -66,8 +66,7 @@
     "numpy@1.16",
     "portaudio",
     "uhd",
-    "zeromq",
-    "python@2"
+    "zeromq"
   ],
   "recommended_dependencies": [
 
@@ -76,18 +75,10 @@
 
   ],
   "uses_from_macos": [
-
+    "python@2"
   ],
   "requirements": [
-    {
-      "name": "macos",
-      "cask": null,
-      "download": null,
-      "version": null,
-      "contexts": [
 
-      ]
-    }
   ],
   "conflicts_with": [
 

@@ -29,24 +29,20 @@
     "stable": {
       "rebuild": 0,
       "cellar": ":any_skip_relocation",
-      "prefix": "/home/linuxbrew/.linuxbrew",
-      "root_url": "https://linuxbrew.bintray.com/bottles",
+      "prefix": "/usr/local",
+      "root_url": "https://homebrew.bintray.com/bottles",
       "files": {
         "catalina": {
-          "url": "https://linuxbrew.bintray.com/bottles/dbhash-3.31.1.catalina.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dbhash-3.31.1.catalina.bottle.tar.gz",
           "sha256": "7296d5d4f3bccdb153c6a312c0ea65a9868cda646ee4028606ea8a46476d86e1"
         },
         "mojave": {
-          "url": "https://linuxbrew.bintray.com/bottles/dbhash-3.31.1.mojave.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dbhash-3.31.1.mojave.bottle.tar.gz",
           "sha256": "f569d04c603f101d0bedbe4aeaa36ab5fb964978bb247589693778e488806e29"
         },
         "high_sierra": {
-          "url": "https://linuxbrew.bintray.com/bottles/dbhash-3.31.1.high_sierra.bottle.tar.gz",
+          "url": "https://homebrew.bintray.com/bottles/dbhash-3.31.1.high_sierra.bottle.tar.gz",
           "sha256": "881d1f7bebd40c356fc343029a1deadebdd67086f8da86621403837d3f703228"
-        },
-        "x86_64_linux": {
-          "url": "https://linuxbrew.bintray.com/bottles/dbhash-3.31.1.x86_64_linux.bottle.tar.gz",
-          "sha256": "8b8da9e454b905b4d0f3a2846061367b6d2bf21096017603494b1d2da8bfb498"
         }
       }
     }
@@ -57,10 +53,10 @@
 
   ],
   "build_dependencies": [
-    "tcl-tk"
+
   ],
   "dependencies": [
-    "sqlite"
+
   ],
   "recommended_dependencies": [
 
@@ -69,7 +65,12 @@
 
   ],
   "uses_from_macos": [
-
+    {
+      "tcl-tk": "build"
+    },
+    {
+      "sqlite": "test"
+    }
   ],
   "requirements": [
 
