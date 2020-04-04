@@ -1,2 +1,0 @@
-# This directory must exist for Jekyll to create the site.data.formula-linux array;
-# otherwise it is nil and Liquid blows up expecting an array.
