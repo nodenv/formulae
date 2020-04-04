@@ -18,6 +18,7 @@ task :formulae, [:os,:tap] do |task, args|
   ENV["HOMEBREW_FORCE_HOMEBREW_ON_LINUX"] = "1" if args[:os] == "mac"
   ENV["HOMEBREW_NO_COLOR"] = "1"
   sh "brew", "ruby", "script/generate.rb", args[:os], args[:tap]
+  FileUtils.mkdir_p ["_data/formula", "_data/formula-linux"]
 end
 
 desc "Dump cask data"
@@ -27,6 +28,7 @@ task :cask, [:tap] do |task, args|
   ENV["HOMEBREW_FORCE_HOMEBREW_ON_LINUX"] = "1"
   ENV["HOMEBREW_NO_COLOR"] = "1"
   sh "brew", "ruby", "script/generate-cask.rb", args[:tap]
+  FileUtils.mkdir_p "_data/cask"
 end
 
 def fetch_analytics?(os)
