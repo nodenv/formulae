@@ -1,5 +1,7 @@
 # Homebrew Formulae
 
+https://nodenv.github.io/formulae/
+
 This is a nodenv-specific fork of [Homebrew Formulae](https://nodenv.github.io/formulae/)—an online package browser for [Homebrew](https://brew.sh).
 
 It displays all packages in [nodenv/homebrew-nodenv](https://github.com/nodenv/homebrew-nodenv) and [nodenv/homebrew-cask](https://github.com/nodenv/homebrew-cask).
