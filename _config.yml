@@ -1,5 +1,5 @@
-title: Homebrew Formulae
-description: Homebrew's package index
+title: Nodenv Homebrew Formulae
+description: Nodenv's Homebrew package index
 
 remote_theme: Homebrew/brew.sh
 
@@ -49,7 +49,7 @@ taps:
 
 logo: /homebrew-256x256.png
 
-forkme_nwo: nodenv/formulae.brew.sh
+forkme_nwo: nodenv/formulae
 
 # twitter:
 #   username: MacHomebrew
