@@ -26,7 +26,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://brew.sh/assets/img/homebrew-256x256.png
+      image: /homebrew-256x256.png
       search_name: Homebrew Formulae
       search_site: formulae
 
@@ -47,7 +47,7 @@ taps:
     fullname: nodenv/linuxbrew-nodenv
     remote: https://github.com/nodenv/linuxbrew-nodenv
 
-logo: https://brew.sh/assets/img/homebrew-256x256.png
+logo: /homebrew-256x256.png
 
 forkme_nwo: nodenv/formulae.brew.sh
 
