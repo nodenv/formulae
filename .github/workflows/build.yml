@@ -1,4 +1,4 @@
-name: Generate Data
+name: Re-gen Site Data
 on:
   push: { branches: master }
   schedule: [{ cron: '0 3 * * *' }] # daily at 3am
