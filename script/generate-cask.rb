@@ -7,6 +7,7 @@ tap = tap_name.empty? ? Tap.default_cask_tap : Tap.new(*tap_name)
 directories = ["_data/cask", "api/cask", "cask"]
 FileUtils.rm_rf directories
 FileUtils.mkdir_p directories
+FileUtils.touch directories.map{ |d| "#{d}/.gitkeep" }
 
 json_template = IO.read "_api_cask.json.in"
 html_template = IO.read "_cask.html.in"

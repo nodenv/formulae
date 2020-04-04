@@ -8,6 +8,7 @@ tap = tap_name.empty? ? CoreTap.instance : Tap.new(*tap_name)
 directories = ["_data/#{formula_dir}", "api/#{formula_dir}", "#{formula_dir}"]
 FileUtils.rm_rf directories
 FileUtils.mkdir_p directories
+FileUtils.touch directories.map{ |d| "#{d}/.gitkeep" }
 
 json_template = IO.read "_api_formula.json.in"
 html_template = IO.read "_formula.html.in"
