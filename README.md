@@ -1,6 +1,6 @@
 # Homebrew Formulae
 
-[Homebrew Formulae](https://formulae.brew.sh) is an online package browser for [Homebrew](https://brew.sh).
+This is a nodenv-specific fork of [Homebrew Formulae](https://nodenv.github.io/formulae/)—an online package browser for [Homebrew](https://brew.sh).
 
 It displays all packages in [nodenv/homebrew-nodenv](https://github.com/nodenv/homebrew-nodenv) and [nodenv/homebrew-cask](https://github.com/nodenv/homebrew-cask).
 
@@ -14,15 +14,15 @@ Currently available:
 - List analytics events
 - List analytics events for all homebrew-nodenv formulae
 
-Read more in the [JSON API documentation](https://formulae.brew.sh/docs/api/).
+Read more in the [JSON API documentation](https://nodenv.github.io/formulae/docs/api/).
 
 ## Usage
-Open https://formulae.brew.sh/ in your web browser.
+Open https://nodenv.github.io/formulae/ in your web browser.
 
 To instead run Homebrew Formulae locally, run:
 ```bash
-git clone https://github.com/nodenv/formulae.brew.sh
-cd formulae.brew.sh
+git clone https://github.com/nodenv/formulae
+cd formulae
 bundle install
 bundle exec jekyll serve
 ```
