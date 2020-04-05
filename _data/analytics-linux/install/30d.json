@@ -1,12 +1,12 @@
 {
   "category": "install",
-  "total_items": 3919,
-  "start_date": "2020-03-05",
-  "end_date": "2020-04-04",
-  "total_count": 792441,
+  "total_items": 3909,
+  "start_date": "2020-03-06",
+  "end_date": "2020-04-05",
+  "total_count": 786397,
   "items": [
     {
-      "number": 3562,
+      "number": 3557,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "1",
       "percent": "0.00"
