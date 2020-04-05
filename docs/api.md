@@ -8,7 +8,7 @@ permalink: /docs/api/
 List the `brew info --json=v1` output for all current {{ site.taps.core.fullname }} formulae.
 
 ```
-GET https://formulae.brew.sh/api/formula.json
+GET {{ site.api.root }}/api/formula.json
 ```
 
 #### Response
@@ -102,7 +102,7 @@ GET https://formulae.brew.sh/api/formula.json
 Get the `brew info --json=v1` output for a single, current {{ site.taps.core.fullname }} formula with an extra `analytics` key with analytics data.
 
 ```
-GET https://formulae.brew.sh/api/formula/${FORMULA}.json
+GET {{ site.api.root }}/api/formula/${FORMULA}.json
 ```
 
 #### Variables
@@ -305,7 +305,7 @@ GET https://formulae.brew.sh/api/formula/${FORMULA}.json
 List all analytics events for a specified category and number of days.
 
 ```
-GET https://formulae.brew.sh/api/analytics/${CATEGORY}/${DAYS}.json
+GET {{ site.api.root }}/api/analytics/${CATEGORY}/${DAYS}.json
 ```
 
 #### Variables
@@ -352,7 +352,7 @@ GET https://formulae.brew.sh/api/analytics/${CATEGORY}/${DAYS}.json
 List all the {{ site.taps.core.fullname }} formulae's analytics events for a specified category and number of days (grouped by formula name).
 
 ```
-GET https://formulae.brew.sh/api/analytics/${CATEGORY}/homebrew-core/${DAYS}.json
+GET {{ site.api.root }}/api/analytics/${CATEGORY}/homebrew-core/${DAYS}.json
 ```
 
 #### Variables
