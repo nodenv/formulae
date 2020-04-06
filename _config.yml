@@ -1,5 +1,7 @@
 title: Nodenv Homebrew Formulae
 description: Nodenv's Homebrew package index
+api:
+  root: https://nodenv.github.io/formulae
 
 remote_theme: Homebrew/brew.sh
 

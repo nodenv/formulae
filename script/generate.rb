@@ -1,9 +1,9 @@
 #!/usr/bin/env brew ruby
 os = ARGV.first
-tap_name = (ARGV.second || "").split("/")
+tap_name = ARGV.second
 
 formula_dir = os == "mac" ? "formula" : "formula-linux"
-tap = tap_name.empty? ? CoreTap.instance : Tap.new(*tap_name)
+tap = Tap.fetch(tap_name)
 
 directories = ["_data/#{formula_dir}", "api/#{formula_dir}", "#{formula_dir}"]
 FileUtils.rm_rf directories
