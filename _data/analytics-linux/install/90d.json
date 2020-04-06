@@ -1,24 +1,24 @@
 {
   "category": "install",
-  "total_items": 5420,
-  "start_date": "2020-01-06",
-  "end_date": "2020-04-05",
-  "total_count": 2094139,
+  "total_items": 5424,
+  "start_date": "2020-01-07",
+  "end_date": "2020-04-06",
+  "total_count": 2103087,
   "items": [
     {
-      "number": 3898,
+      "number": 3892,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "2",
       "percent": "0.00"
     },
     {
-      "number": 4952,
+      "number": 4954,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "1",
       "percent": "0.00"
     },
     {
-      "number": 4953,
+      "number": 4955,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "1",
       "percent": "0.00"
