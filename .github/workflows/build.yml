@@ -1,7 +1,7 @@
 name: Re-gen Site Data
 on:
   push: { branches: master }
-  schedule: [{ cron: '0 3 * * *' }] # daily at 3am
+  schedule: [{ cron: '0 9 * * *' }] # daily at 1am PST
 
 jobs:
   generate:
@@ -26,7 +26,6 @@ jobs:
           bin/rake cask
           bin/rake formula_and_analytics
           bin/rake linux_formula_and_analytics
-          git status
 
       - uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
