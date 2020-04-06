@@ -8,25 +8,17 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
-
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
-
       - run: brew tap nodenv/nodenv
-
-      - name: bundle install
-        run: |
-          gem install bundler -v "~>1"
-          bundle install --deployment --binstubs --jobs 4 --retry 3
-
+      - run: bin/bundle install --deployment --jobs 4 --retry 3
       - name: generate all formula and analytics data
-        run: |
-          bin/rake cask
-          bin/rake formula_and_analytics
-          bin/rake linux_formula_and_analytics
-
+        run: bin/rake all_data
       - uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
           commit_message: 'regenerated all formula and analytics data'

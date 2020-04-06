@@ -71,13 +71,17 @@ task formula_and_analytics: %i[formulae analytics]
 
 desc "Dump Linux formulae and analytics data"
 task :linux_formula_and_analytics do
-  Rake::Task["formulae"].invoke("linux")
-  Rake::Task["analytics"].invoke("linux")
+  Rake::Task["formulae"].tap(&:reenable).invoke("linux")
+  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
 end
 
+desc "Dump all formulae, casks, and analytics data"
+task all_data: %i[formula_and_analytics cask linux_formula_and_analytics]
+
 desc "Build the site"
-task build: [:formula_and_analytics, :cask, :linux_formula_and_analytics] do
-  sh "bundle", "exec", "jekyll", "build"
+task build: :all_data do
+  require 'jekyll'
+  Jekyll::Commands::Build.process({})
 end
 
 desc "Run html proofer to validate the HTML output."
