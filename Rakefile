@@ -75,8 +75,11 @@ task :linux_formula_and_analytics do
   Rake::Task["analytics"].tap(&:reenable).invoke("linux")
 end
 
+desc "Dump all formulae, casks, and analytics data"
+task all_data: %i[formula_and_analytics cask linux_formula_and_analytics]
+
 desc "Build the site"
-task build: [:formula_and_analytics, :cask, :linux_formula_and_analytics] do
+task build: :all_data do
   sh "bundle", "exec", "jekyll", "build"
 end
 
