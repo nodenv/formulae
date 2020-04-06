@@ -80,7 +80,8 @@ task all_data: %i[formula_and_analytics cask linux_formula_and_analytics]
 
 desc "Build the site"
 task build: :all_data do
-  sh "bundle", "exec", "jekyll", "build"
+  require 'jekyll'
+  Jekyll::Commands::Build.process({})
 end
 
 desc "Run html proofer to validate the HTML output."
