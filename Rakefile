@@ -84,6 +84,12 @@ task build: :all_data do
   Jekyll::Commands::Build.process({})
 end
 
+desc "Serve the site"
+task run: :build do
+  require 'jekyll'
+  Jekyll::Commands::Serve.process({})
+end
+
 desc "Run html proofer to validate the HTML output."
 task html_proofer: :build do
   require "html-proofer"
