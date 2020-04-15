@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {%- assign full_name = page.name | remove: ".json" -%}
 {%- assign name = full_name -%}

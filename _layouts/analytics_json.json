@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {%- assign analytics_path = page.dir | split: "/" -%}
 {%- assign analytics_path = analytics_path[2] -%}
