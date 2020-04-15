@@ -1,6 +1,6 @@
 ---
 title: JSON API documentation
-layout: page
+layout: nodenv_default
 permalink: /docs/api/
 ---
 ## Formulae

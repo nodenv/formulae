@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {%- assign formula_path = page.dir | split: "/" -%}
 {%- assign formula_path = formula_path[2] -%}
