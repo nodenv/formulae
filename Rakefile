@@ -78,7 +78,7 @@ task build: :all_data do
   Jekyll::Commands::Build.process({})
 end
 
-desc "Serve the site"
+desc "Serve the site (jekyll serve)"
 task :serve do
   Jekyll::Commands::Serve.process({})
 end
