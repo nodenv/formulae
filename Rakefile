@@ -81,6 +81,7 @@ desc "Build the site"
 task build: :all_data do
   Jekyll::Commands::Build.process({})
 end
+CLEAN.include FileList["_site"]
 
 desc "Serve the site (jekyll serve)"
 task :serve do
@@ -108,7 +109,7 @@ end
 desc "Run JSON Lint to validate the JSON output."
 task jsonlint: :build do
   require "jsonlint"
-  files_to_check = Rake::FileList.new(["./_site/**/*.json"])
+  files_to_check = FileList["_site/**/*.json"]
   puts "Running JSON Lint on #{files_to_check.flatten.length} files..."
 
   linter = JsonLint::Linter.new
@@ -123,5 +124,3 @@ task jsonlint: :build do
 end
 
 task test: %i[html_proofer jsonlint]
-
-CLEAN.include FileList["_site"]
