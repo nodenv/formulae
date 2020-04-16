@@ -74,16 +74,23 @@ task :linux_formula_and_analytics do
   Rake::Task["analytics"].tap(&:reenable).invoke("linux")
 end
 
-desc "Dump all formulae, casks, and analytics data"
-task all_data: %i[formula_and_analytics cask linux_formula_and_analytics]
+desc "Dump all formulae (macOS and Linux)"
+task all_formulae: :formulae do
+  Rake::Task["formulae"].tap(&:reenable).invoke("linux")
+end
+
+desc "Dump all analytics (macOS and Linux)"
+task all_analytics: :analytics do
+  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
+end
 
 desc "Build the site"
-task build: :all_data do
+task build: %i[all_formulae all_analytics cask] do
   Jekyll::Commands::Build.process({})
 end
 CLEAN.include FileList["_site"]
 
-desc "Serve the site (jekyll serve)"
+desc "Serve the site"
 task :serve do
   Jekyll::Commands::Serve.process({})
 end
