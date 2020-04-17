@@ -25,20 +25,12 @@ task :cask, [:tap] do |task, args|
 end
 CLOBBER.include FileList[%w[_data/cask api/cask cask]]
 
-desc "Dump analytics data"
-task :analytics, [:os] do |task, args|
-  args.with_defaults(:os => "mac")
-  sh "script/fetch-analytics.rb", args[:os]
-end
-CLOBBER.include FileList[%w[_data/analytics _data/analytics-linux]]
-
 desc "Dump macOS formulae and analytics data"
-task formula_and_analytics: %i[formulae analytics]
+task formula_and_analytics: %i[formulae data:analytics:mac]
 
 desc "Dump Linux formulae and analytics data"
-task :linux_formula_and_analytics do
+task linux_formula_and_analytics: %i[data:analytics:linux] do
   Rake::Task["formulae"].tap(&:reenable).invoke("linux")
-  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
 end
 
 desc "Dump all formulae (macOS and Linux)"
@@ -46,13 +38,8 @@ task all_formulae: :formulae do
   Rake::Task["formulae"].tap(&:reenable).invoke("linux")
 end
 
-desc "Dump all analytics (macOS and Linux)"
-task all_analytics: :analytics do
-  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
-end
-
 desc "Build the site"
-task build: %i[all_formulae all_analytics cask] do
+task build: %i[all_formulae data:analytics cask] do
   Jekyll::Commands::Build.process({})
 end
 CLEAN.include FileList["_site"]
