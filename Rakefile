@@ -1,8 +1,6 @@
 require "rake"
 require "rake/clean"
 require 'jekyll'
-require "json"
-require "date"
 
 task default: :formula_and_analytics
 
@@ -27,41 +25,10 @@ task :cask, [:tap] do |task, args|
 end
 CLOBBER.include FileList[%w[_data/cask api/cask cask]]
 
-def fetch_analytics?(os)
-  return false if ENV["HOMEBREW_NO_ANALYTICS"]
-
-  json_file = "_data/analytics#{"-linux" if os == "linux"}/build-error/30d.json"
-  return true unless File.exist?(json_file)
-
-  json = JSON.parse(IO.read(json_file))
-  end_date = Date.parse(json["end_date"])
-  end_date < Date.today
-end
-
-def fetch_analytics_files(os)
-  %w[build-error install cask-install install-on-request].each do |category|
-    %w[30 90 365].each do |days|
-      next if os == "linux" && %w[cask-install os-version].include?(category)
-
-      path = Pathname.new "analytics#{os == "linux" ? "-linux" : ""}/#{category}/#{days}d.json"
-      outpath = Pathname.new "_data/#{path}"
-
-      FileUtils.mkdir_p outpath.dirname
-      sh <<~SH
-        curl -qsSLf 'https://formulae.brew.sh/api/#{path}' |
-          jq '.items = [.items[] | select(.formula // .cask | test("^nodenv/"))]' > #{outpath}
-      SH
-    end
-  end
-end
-
 desc "Dump analytics data"
 task :analytics, [:os] do |task, args|
   args.with_defaults(:os => "mac")
-
-  next unless fetch_analytics?(args[:os])
-
-  fetch_analytics_files(args[:os])
+  sh "script/fetch-analytics.rb", args[:os]
 end
 CLOBBER.include FileList[%w[_data/analytics _data/analytics-linux]]
 
