@@ -3,7 +3,7 @@ description: Nodenv's Homebrew package index
 api:
   root: https://nodenv.github.io/formulae
 
-remote_theme: jasonkarns/brew.sh@relative-url
+remote_theme: Homebrew/brew.sh
 
 exclude:
   - bin
