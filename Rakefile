@@ -98,3 +98,7 @@ task jsonlint: :build do
 end
 
 task test: %i[html_proofer jsonlint]
+
+task :clean do
+  sh *%w[git checkout --], *CLOBBER
+end
