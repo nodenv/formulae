@@ -1,3 +1,5 @@
+require 'open-uri'
+
 PERIODS = %w[30d.json 90d.json 365d.json]
 NIX_CATEGORIES = %w[build-error install install-on-request]
 MAC_CATEGORIES = NIX_CATEGORIES + %w[cask-install]
@@ -19,17 +21,51 @@ namespace :data do
     task :linux => NIXALYTICS
 
 
-    mkdir = ->(f) { f.pathmap('%d') }
+    rule %r{/api/analytics}
+    api_url = ->(f) { f.pathmap('%{^_data,https://formulae.brew.sh/api}p') }
 
-    # matches analytics .json files
-    rule %r{_data/.*\.json} => mkdir do |t|
-      sh %Q{curl -qsSLf '#{t.name.sub(/_data/, 'https://formulae.brew.sh/api')}' | \
-        jq '.items = [.items[] | select(.formula // .cask | test("^nodenv/"))]' > #{t.name}}
+    rule %r{_data/analytics.*\.json} => [api_url, '%d'] do |t, args|
+      open(t.name, 'w') do |f|
+        JSON.load(Rake::Task[t.source]).tap { |data|
+          data["items"].select! { |i| %r{^nodenv/}.match(i["formula"] || i["cask"]) }
+        }.then { |obj|
+          f.puts JSON.pretty_generate(obj)
+        }
+      end
     end
+  end
+end
 
-    # matches analytics subdirectories
-    rule %r{_data/[-/\w]+$} do |t|
-      mkdir_p t.name
+class HttpResourceTask < Rake::FileTask
+  def read
+    resource.read
+  end
+
+  def timestamp
+    resource.last_modified
+  end
+
+  private
+
+  def resource
+    @resource ||= URI(name).open
+  end
+end
+
+class AnalyticsFileTask < Rake::FileTask
+  def timestamp
+    JSON.load(Pathname.new name)["end_date"].then { |dt|
+      DateTime.parse(dt).next_day.to_time } rescue Rake::LATE
+  end
+end
+
+class Rake::FileTask
+  def self.define_task(name, *args, &block)
+    task_class = case name
+    when %r{_data/.*json} then AnalyticsFileTask
+    when %r{https:.*json} then HttpResourceTask
+    else self
     end
+    Rake.application.define_task(task_class, name, *args, &block)
   end
 end
