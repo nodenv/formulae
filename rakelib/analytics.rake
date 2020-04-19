@@ -1,41 +1,56 @@
+require 'date'
+require 'json'
+require 'pathname'
 require 'open-uri'
 
 module Analytics
+  extend Rake::DSL
+
+  mac_root = %w[_data/analytics]
+  nix_root = %w[_data/analytics-linux]
   periods = %w[30d.json 90d.json 365d.json]
   nix_categories = %w[build-error install install-on-request]
   mac_categories = nix_categories + %w[cask-install]
   to_path = ->(ary) { ary.join("/") }
 
-  MAC = FileList[["_data/analytics"].product(mac_categories, periods).map(&to_path)]
-  LINUX = FileList[["_data/analytics-linux"].product(nix_categories, periods).map(&to_path)]
-  DIRS = (MAC + LINUX).pathmap('%d')
-end
-CLOBBER.include Analytics::DIRS
+  MAC = mac_root.product(mac_categories, periods).map(&to_path)
+  LINUX = nix_root.product(nix_categories, periods).map(&to_path)
 
-namespace :data do
-  desc "Dump all analytics data"
-  task analytics: %w[analytics:mac analytics:linux]
+  API = "https://formulae.brew.sh/api"
+  DIRS = FileList[MAC, LINUX].pathmap('%d')
+  FILE_PATTERN = %r|#{Regexp.union(mac_root + nix_root)}/.*\.json|
 
-  namespace :analytics do
-    desc "Dump mac analytics data"
-    task mac: Analytics::MAC
+  CLOBBER.include DIRS
 
-    desc "Dump linux analytics data"
-    task linux: Analytics::LINUX
+  namespace :data do
+    desc "Dump all analytics data"
+    task analytics: %w[analytics:mac analytics:linux]
 
-    Analytics::DIRS.each { |d| directory d }
+    namespace :analytics do
+      desc "Dump mac analytics data"
+      task mac: MAC
 
-    rule %r{/api/analytics}
-    api_url = ->(f) { f.pathmap('%{^_data,https://formulae.brew.sh/api}p') }
+      desc "Dump linux analytics data"
+      task linux: LINUX
 
-    rule %r{_data/analytics.*\.json} => [api_url, '%d'] do |t, args|
-      open(t.name, 'w') do |f|
-        JSON.load(Rake::Task[t.source]).tap { |data|
-          data["items"].select! { |i| %r{^nodenv/}.match(i["formula"] || i["cask"]) }
-        }.then { |obj|
-          f.puts JSON.pretty_generate(obj)
-        }
+      DIRS.each { |d| directory d }
+
+      rule Regexp.new(API)
+
+      rule FILE_PATTERN => ["%{^_data,#{API}}p", "%d"] do |t, args|
+        open(t.name, 'w') do |f|
+          f.puts JSON.pretty_generate Rake::Task[t.source].json.tap { |data|
+            data["items"].select! { |i| %r{^nodenv/}.match(i["formula"] || i["cask"]) }
+          }
+        end
       end
+    end
+  end
+
+  class JsonFileTask < Rake::FileTask
+    def timestamp
+      JSON.load(Pathname.new name)["end_date"].then { |dt|
+        DateTime.parse(dt).next_day.to_time } rescue Rake::LATE
     end
   end
 end
@@ -49,6 +64,10 @@ class HttpResourceTask < Rake::FileTask
     resource.last_modified
   end
 
+  def json
+    JSON.load read
+  end
+
   private
 
   def resource
@@ -56,18 +75,11 @@ class HttpResourceTask < Rake::FileTask
   end
 end
 
-class AnalyticsFileTask < Rake::FileTask
-  def timestamp
-    JSON.load(Pathname.new name)["end_date"].then { |dt|
-      DateTime.parse(dt).next_day.to_time } rescue Rake::LATE
-  end
-end
-
 class Rake::FileTask
   def self.define_task(name, *args, &block)
     task_class = case name
-    when %r{_data/.*json} then AnalyticsFileTask
-    when %r{https:.*json} then HttpResourceTask
+    when Analytics::FILE_PATTERN then Analytics::JsonFileTask
+    when Regexp.new(Analytics::API) then HttpResourceTask
     else self
     end
     Rake.application.define_task(task_class, name, *args, &block)
