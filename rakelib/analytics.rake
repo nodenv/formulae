@@ -40,7 +40,7 @@ module Analytics
       rule FILE_PATTERN => ["%{^_data,#{API}}p", "%d"] do |t, args|
         open(t.name, 'w') do |f|
           f.puts JSON.pretty_generate Rake::Task[t.source].json.tap { |data|
-            data["items"].select! { |i| %r{^nodenv/}.match(i["formula"] || i["cask"]) }
+            data["items"].select! { |i| i["formula"] =~ %r{^nodenv/} }
           }
         end
       end
