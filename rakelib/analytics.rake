@@ -1,25 +1,29 @@
 require 'open-uri'
 
-PERIODS = %w[30d.json 90d.json 365d.json]
-NIX_CATEGORIES = %w[build-error install install-on-request]
-MAC_CATEGORIES = NIX_CATEGORIES + %w[cask-install]
+module Analytics
+  periods = %w[30d.json 90d.json 365d.json]
+  nix_categories = %w[build-error install install-on-request]
+  mac_categories = nix_categories + %w[cask-install]
+  to_path = ->(ary) { ary.join("/") }
 
-to_path = ->(p) { Pathname.new p.join("/") }
-
-MACALYTICS = ["_data/analytics"].product(MAC_CATEGORIES, PERIODS).map(&to_path)
-NIXALYTICS = ["_data/analytics-linux"].product(NIX_CATEGORIES, PERIODS).map(&to_path)
+  MAC = FileList[["_data/analytics"].product(mac_categories, periods).map(&to_path)]
+  LINUX = FileList[["_data/analytics-linux"].product(nix_categories, periods).map(&to_path)]
+  DIRS = (MAC + LINUX).pathmap('%d')
+end
+CLOBBER.include Analytics::DIRS
 
 namespace :data do
   desc "Dump all analytics data"
-  task :analytics => %w[analytics:mac analytics:linux]
+  task analytics: %w[analytics:mac analytics:linux]
 
   namespace :analytics do
     desc "Dump mac analytics data"
-    task :mac => MACALYTICS
+    task mac: Analytics::MAC
 
     desc "Dump linux analytics data"
-    task :linux => NIXALYTICS
+    task linux: Analytics::LINUX
 
+    Analytics::DIRS.each { |d| directory d }
 
     rule %r{/api/analytics}
     api_url = ->(f) { f.pathmap('%{^_data,https://formulae.brew.sh/api}p') }
