@@ -1,8 +1,6 @@
 require "rake"
 require "rake/clean"
 require 'jekyll'
-require "json"
-require "date"
 
 task default: :formula_and_analytics
 
@@ -27,51 +25,12 @@ task :cask, [:tap] do |task, args|
 end
 CLOBBER.include FileList[%w[_data/cask api/cask cask]]
 
-def fetch_analytics?(os)
-  return false if ENV["HOMEBREW_NO_ANALYTICS"]
-
-  json_file = "_data/analytics#{"-linux" if os == "linux"}/build-error/30d.json"
-  return true unless File.exist?(json_file)
-
-  json = JSON.parse(IO.read(json_file))
-  end_date = Date.parse(json["end_date"])
-  end_date < Date.today
-end
-
-def fetch_analytics_files(os)
-  %w[build-error install cask-install install-on-request].each do |category|
-    %w[30 90 365].each do |days|
-      next if os == "linux" && %w[cask-install os-version].include?(category)
-
-      path = Pathname.new "analytics#{os == "linux" ? "-linux" : ""}/#{category}/#{days}d.json"
-      outpath = Pathname.new "_data/#{path}"
-
-      FileUtils.mkdir_p outpath.dirname
-      sh <<~SH
-        curl -qsSLf 'https://formulae.brew.sh/api/#{path}' |
-          jq '.items = [.items[] | select(.formula // .cask | test("^nodenv/"))]' > #{outpath}
-      SH
-    end
-  end
-end
-
-desc "Dump analytics data"
-task :analytics, [:os] do |task, args|
-  args.with_defaults(:os => "mac")
-
-  next unless fetch_analytics?(args[:os])
-
-  fetch_analytics_files(args[:os])
-end
-CLOBBER.include FileList[%w[_data/analytics _data/analytics-linux]]
-
 desc "Dump macOS formulae and analytics data"
-task formula_and_analytics: %i[formulae analytics]
+task formula_and_analytics: %i[formulae data:analytics:mac]
 
 desc "Dump Linux formulae and analytics data"
-task :linux_formula_and_analytics do
+task linux_formula_and_analytics: %i[data:analytics:linux] do
   Rake::Task["formulae"].tap(&:reenable).invoke("linux")
-  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
 end
 
 desc "Dump all formulae (macOS and Linux)"
@@ -79,13 +38,8 @@ task all_formulae: :formulae do
   Rake::Task["formulae"].tap(&:reenable).invoke("linux")
 end
 
-desc "Dump all analytics (macOS and Linux)"
-task all_analytics: :analytics do
-  Rake::Task["analytics"].tap(&:reenable).invoke("linux")
-end
-
 desc "Build the site"
-task build: %i[all_formulae all_analytics cask] do
+task build: %i[all_formulae data:analytics cask] do
   Jekyll::Commands::Build.process({})
 end
 CLEAN.include FileList["_site"]
@@ -131,3 +85,7 @@ task jsonlint: :build do
 end
 
 task test: %i[html_proofer jsonlint]
+
+task :clean do
+  sh *%w[git checkout --], *CLOBBER
+end

@@ -17,7 +17,7 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
       - run: brew tap nodenv/nodenv
       - run: bin/bundle install --deployment --jobs 4 --retry 3
-      - run: bin/rake all_formulae all_analytics cask
+      - run: bin/rake all_formulae data:analytics cask
       - uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
           commit_message: 'regenerated all formula and analytics data'
