@@ -41,6 +41,10 @@ module Analytics
         open(t.name, 'w') do |f|
           f.puts JSON.pretty_generate Rake::Task[t.source].json.tap { |data|
             data["items"].select! { |i| i["formula"] =~ %r{^nodenv/} }
+
+            data["total_items"] = data["items"].size
+            data["total_count"] = data["items"].reduce(0) { |sum, i| sum + i["count"].to_i}
+            data["items"].each{ |i| i["percent"] = (i["count"].to_f / data["total_count"] * 100).truncate(2).to_s }
           }
         end
       end
