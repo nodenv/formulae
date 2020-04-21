@@ -1,18 +1,18 @@
 {
   "category": "install",
-  "total_items": 3917,
-  "start_date": "2020-03-21",
-  "end_date": "2020-04-20",
-  "total_count": 788900,
+  "total_items": 3908,
+  "start_date": "2020-03-22",
+  "end_date": "2020-04-21",
+  "total_count": 796326,
   "items": [
     {
-      "number": 2147,
+      "number": 2154,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "3",
       "percent": "0.00"
     },
     {
-      "number": 3533,
+      "number": 3530,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "1",
       "percent": "0.00"
