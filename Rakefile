@@ -1,6 +1,7 @@
 require "rake"
 require "rake/clean"
-require 'jekyll'
+
+autoload :Jekyll, 'jekyll'
 
 task default: :formula_and_analytics
 
