@@ -14,15 +14,14 @@ module Analytics
   nix_categories = %w[build-error install install-on-request]
   mac_categories = nix_categories + %w[cask-install]
   npm_categories = %w[download]
-  to_path = ->(ary) { ary.join("/") }
 
-  MAC = [mac_root].product(mac_categories, periods).map(&to_path)
-  LINUX = [nix_root].product(nix_categories, periods).map(&to_path)
-  NPM = [npm_root].product(npm_categories, periods).map(&to_path)
+  MAC = [mac_root].product(mac_categories, periods).map{ |a| a.join("/") }
+  NIX = [nix_root].product(nix_categories, periods).map{ |a| a.join("/") }
+  NPM = [npm_root].product(npm_categories, periods).map{ |a| a.join("/") }
 
   BREW_API = "https://formulae.brew.sh/api"
   NPM_API = "https://api.npmjs.org/downloads/point"
-  DIRS = FileList[MAC, LINUX, NPM].pathmap('%d')
+  DIRS = FileList[MAC, NIX, NPM].pathmap('%d')
   BREW_FILES = %r|#{Regexp.union(mac_root, nix_root)}/.*\.json|
   NPM_FILES = %r|#{npm_root}/.*\.json|
 
@@ -44,7 +43,7 @@ module Analytics
       task mac: MAC
 
       desc "Dump linux analytics data"
-      task linux: LINUX
+      task linux: NIX
 
       desc "Dump npm analytics data"
       task npm: NPM
