@@ -18,4 +18,4 @@ jobs:
       - uses: jasonkarns/setup-homebrew@master
         with: { taps: nodenv/nodenv }
       - run: bin/bundle install --deployment --jobs 4 --retry 3
-      - run: bin/rake build
+      - run: bin/rake -m build
