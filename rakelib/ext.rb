@@ -15,13 +15,13 @@ module Rake
 
   module JsonFile
     def json
-      JSON.load self
+      @json ||= JSON.load self
     end
   end
 
   class HttpResourceTask < Rake::FileTask
     def read
-      resource.read
+      @read ||= resource.read
     end
 
     def timestamp

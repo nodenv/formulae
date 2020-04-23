@@ -67,7 +67,7 @@ module Analytics
 
       period = "{30d,last-month;90d,#{Date.today.prev_day(90)}:#{Date.today.prev_day};365d,last-year}"
       rule NPM_FILES => [*PACKAGES.pathmap("#{NPM_API}/%%#{period}n/%p"), "%d"] do |t|
-        packages = t.prerequisite_tasks.select{ |t| Rake::JsonFile === t}.map(&:json)
+        packages = t.prerequisite_tasks.grep(Rake::JsonFile, &:json)
         total = packages.reduce(0) { |sum, p| sum + p["downloads"] }
 
         open(t.name, 'w') do |f|
