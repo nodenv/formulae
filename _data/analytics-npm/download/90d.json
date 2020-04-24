@@ -1,14 +1,14 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-01-24",
-  "end_date": "2020-04-22",
-  "total_count": 3972,
+  "start_date": "2020-01-25",
+  "end_date": "2020-04-23",
+  "total_count": 3982,
   "items": [
     {
       "package": "@nodenv/jetbrains-npm",
       "count": 37,
-      "percent": "0.93"
+      "percent": "0.92"
     },
     {
       "package": "@nodenv/node-build-jxcore",
@@ -22,8 +22,8 @@
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 3663,
-      "percent": "92.22"
+      "count": 3673,
+      "percent": "92.24"
     },
     {
       "package": "@nodenv/nodenv-aliases",
