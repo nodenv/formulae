@@ -15,7 +15,7 @@ jobs:
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
-      - run: brew tap nodenv/nodenv
+      - run: brew tap --shallow nodenv/nodenv
       - run: bin/bundle install --deployment --jobs 4 --retry 3
       - run: bin/rake -m all_formulae data:analytics cask
       - uses: stefanzweifel/git-auto-commit-action@v4.1.1
