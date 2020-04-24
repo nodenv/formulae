@@ -11,7 +11,8 @@ layout: nodenv_default
 {%- assign json = site.data[analytics_path][page.category][page.days] -%}
 <h2>{{ page.category_pretty }} Events</h2>
 
-<h3><a href="{{ site.baseurl }}/api/{{ analytics_path }}/{{ page.category }}/{{ page.days}}.json"><code>/api/{{ analytics_path }}/{{ page.category }}/{{ page.days}}.json</code> (JSON API)</a></h3>
+{%- capture api_url -%}/api/{{ analytics_path }}/{{ page.category }}/{{ page.days}}.json{%- endcapture -%}
+<h3><a href="{{ api_url | relative_url }}"><code>{{ api_url }}</code> (JSON API)</a></h3>
 
 <table class="full-width">
   <tr>
@@ -21,31 +22,25 @@ layout: nodenv_default
     <th>%</th>
   </tr>
 {% for item in json.items %}
+{%-  case page.category -%}
+{%-  when "os-version" -%}
+{%-    assign label = item.os_version -%}
+{%-  when "cask-install" -%}
+{%-    assign label = item.cask -%}
+{%-    assign url = item.cask | prepend: "cask/" -%}
+{%-  when "download" -%}
+{%-    assign label = item.package | split: "/" | last -%}
+{%-    assign url = label | prepend: "formula/" -%}
+{%-  else -%}
+{%-    assign label = item.formula | split: "/" | last -%}
+{%-    assign url = label | prepend: "formula/" -%}
+{%-  endcase -%}
   <tr>
     <td class="number-data">#{{ item.number }}</td>
     <td>
-    {%- if page.category == "os-version" -%}
-      <code>{{ item.os_version }}</code>
-    {%- elsif page.category == "cask-install" -%}
-      {%- if site.data.cask[item.cask] != nil -%}
-        <a href="{{ site.baseurl }}/cask/{{ item.cask }}">
-          <code>{{ item.cask }}</code>
-        </a>
-      {%- else -%}
-        <code>{{ item.cask }}</code>
+      {%- if url -%}<a href="{{ url | relative_url }}"><code>{{ label }}</code></a>
+      {%- else -%}<code>{{ label }}</code>
       {%- endif -%}
-    {%- else -%}
-      {%- assign name = item.formula | split: " " | first -%}
-      {%- assign data_name = name | remove: "@" | remove: "." | replace: "+", "_" -%}
-      {%- assign formula_data = site.data[formula_path][data_name] -%}
-      {%- if name == formula_data.name -%}
-        <a href="{{ site.baseurl }}/{{ formula_path }}/{{ name }}">
-          <code>{{ item.formula }}</code>
-        </a>
-      {%- else -%}
-        <code>{{ item.formula }}</code>
-      {%- endif -%}
-    {%- endif -%}
     </td>
     <td class="number-data">{{ item.count }}</td>
     <td class="number-data">{{ item.percent }}%</td>
