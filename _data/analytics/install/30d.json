@@ -1,45 +1,45 @@
 {
   "category": "install",
   "total_items": 6,
-  "start_date": "2020-04-12",
-  "end_date": "2020-05-12",
-  "total_count": 116,
+  "start_date": "2020-04-13",
+  "end_date": "2020-05-13",
+  "total_count": 113,
   "items": [
     {
-      "number": 3589,
+      "number": 3605,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "45",
-      "percent": "38.79"
+      "percent": "39.82"
     },
     {
-      "number": 4134,
+      "number": 4369,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "31",
-      "percent": "26.72"
+      "count": "27",
+      "percent": "23.89"
     },
     {
-      "number": 5096,
+      "number": 5030,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "17",
-      "percent": "14.65"
+      "count": "18",
+      "percent": "15.92"
     },
     {
-      "number": 6577,
+      "number": 6595,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "8",
-      "percent": "6.89"
+      "percent": "7.07"
     },
     {
-      "number": 6578,
+      "number": 6596,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "8",
-      "percent": "6.89"
+      "percent": "7.07"
     },
     {
-      "number": 6855,
+      "number": 6879,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "7",
-      "percent": "6.03"
+      "percent": "6.19"
     }
   ]
 }
