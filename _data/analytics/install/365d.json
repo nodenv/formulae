@@ -1,57 +1,57 @@
 {
   "category": "install",
   "total_items": 8,
-  "start_date": "2019-05-27",
-  "end_date": "2020-05-26",
-  "total_count": 1400,
+  "start_date": "2019-05-28",
+  "end_date": "2020-05-27",
+  "total_count": 1403,
   "items": [
     {
-      "number": 3758,
+      "number": 3753,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "443",
+      "count": "444",
       "percent": "31.64"
     },
     {
-      "number": 3828,
+      "number": 3834,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "418",
-      "percent": "29.85"
+      "count": "417",
+      "percent": "29.72"
     },
     {
-      "number": 5273,
+      "number": 5279,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "169",
-      "percent": "12.07"
+      "percent": "12.04"
     },
     {
-      "number": 5817,
+      "number": 5799,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "126",
-      "percent": "9.0"
+      "count": "127",
+      "percent": "9.05"
     },
     {
-      "number": 6590,
+      "number": 6569,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "87",
-      "percent": "6.21"
+      "count": "88",
+      "percent": "6.27"
     },
     {
-      "number": 6745,
+      "number": 6752,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "81",
-      "percent": "5.78"
+      "percent": "5.77"
     },
     {
-      "number": 7984,
+      "number": 7989,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "49",
-      "percent": "3.5"
+      "percent": "3.49"
     },
     {
-      "number": 9710,
+      "number": 9592,
       "formula": "nodenv/nodenv/nodenv-each",
-      "count": "27",
-      "percent": "1.92"
+      "count": "28",
+      "percent": "1.99"
     }
   ]
 }
