@@ -1,74 +1,74 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-04-27",
-  "end_date": "2020-05-26",
-  "total_count": 552,
+  "start_date": "2020-04-28",
+  "end_date": "2020-05-27",
+  "total_count": 602,
   "items": [
     {
       "package": "@nodenv/jetbrains-npm",
-      "count": 10,
-      "percent": "1.81"
+      "count": 9,
+      "percent": "1.49"
     },
     {
       "package": "@nodenv/node-build-jxcore",
       "count": 5,
-      "percent": "0.9"
+      "percent": "0.83"
     },
     {
       "package": "@nodenv/node-build-prerelease",
       "count": 4,
-      "percent": "0.72"
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 500,
-      "percent": "90.57"
+      "count": 545,
+      "percent": "90.53"
     },
     {
       "package": "@nodenv/nodenv-aliases",
-      "count": 6,
-      "percent": "1.08"
+      "count": 7,
+      "percent": "1.16"
     },
     {
       "package": "@nodenv/nodenv-default-packages",
-      "count": 4,
-      "percent": "0.72"
+      "count": 5,
+      "percent": "0.83"
     },
     {
       "package": "@nodenv/nodenv-each",
       "count": 4,
-      "percent": "0.72"
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/nodenv-man",
       "count": 4,
-      "percent": "0.72"
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/nodenv-npm-migrate",
-      "count": 3,
-      "percent": "0.54"
+      "count": 4,
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/nodenv-package-json-engine",
       "count": 3,
-      "percent": "0.54"
+      "percent": "0.49"
     },
     {
       "package": "@nodenv/nodenv-package-rehash",
-      "count": 3,
-      "percent": "0.54"
+      "count": 4,
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/nodenv-update",
-      "count": 3,
-      "percent": "0.54"
+      "count": 4,
+      "percent": "0.66"
     },
     {
       "package": "@nodenv/nodenv-vars",
-      "count": 3,
-      "percent": "0.54"
+      "count": 4,
+      "percent": "0.66"
     }
   ]
 }
