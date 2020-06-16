@@ -1,57 +1,63 @@
 {
   "category": "install_on_request",
-  "total_items": 8,
-  "start_date": "2020-05-16",
-  "end_date": "2020-06-15",
-  "total_count": 100,
+  "total_items": 9,
+  "start_date": "2020-05-17",
+  "end_date": "2020-06-16",
+  "total_count": 104,
   "items": [
     {
-      "number": 3851,
+      "number": 3922,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "26",
-      "percent": "26.0"
+      "count": "25",
+      "percent": "24.03"
     },
     {
-      "number": 4124,
+      "number": 4135,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "22",
-      "percent": "22.0"
+      "percent": "21.15"
     },
     {
-      "number": 4614,
+      "number": 4509,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "16",
-      "percent": "16.0"
+      "count": "17",
+      "percent": "16.34"
     },
     {
-      "number": 4986,
+      "number": 5152,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "13",
-      "percent": "13.0"
+      "count": "12",
+      "percent": "11.53"
     },
     {
-      "number": 5915,
-      "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "8",
-      "percent": "8.0"
-    },
-    {
-      "number": 5916,
+      "number": 5498,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "8",
-      "percent": "8.0"
+      "count": "10",
+      "percent": "9.61"
     },
     {
-      "number": 7489,
+      "number": 5725,
+      "formula": "nodenv/nodenv/jetbrains-npm",
+      "count": "9",
+      "percent": "8.65"
+    },
+    {
+      "number": 7529,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "4",
-      "percent": "4.0"
+      "percent": "3.84"
     },
     {
-      "number": 8200,
+      "number": 8233,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "3",
-      "percent": "3.0"
+      "percent": "2.88"
+    },
+    {
+      "number": 9489,
+      "formula": "nodenv/nodenv/nodenv-vars",
+      "count": "2",
+      "percent": "1.92"
     }
   ]
 }
