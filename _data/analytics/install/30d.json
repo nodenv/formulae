@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2020-05-21",
-  "end_date": "2020-06-20",
-  "total_count": 97,
+  "start_date": "2020-05-22",
+  "end_date": "2020-06-21",
+  "total_count": 93,
   "items": [
     {
-      "number": 4546,
+      "number": 4666,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "21",
-      "percent": "21.64"
+      "count": "19",
+      "percent": "20.43"
     },
     {
-      "number": 4879,
+      "number": 4959,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "17",
-      "percent": "17.52"
+      "count": "16",
+      "percent": "17.2"
     },
     {
-      "number": 4984,
+      "number": 4960,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "16",
-      "percent": "16.49"
+      "percent": "17.2"
     },
     {
-      "number": 5518,
-      "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "12",
-      "percent": "12.37"
-    },
-    {
-      "number": 5679,
+      "number": 5642,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "11",
-      "percent": "11.34"
+      "percent": "11.82"
     },
     {
-      "number": 5847,
+      "number": 5643,
+      "formula": "nodenv/nodenv/nodenv-package-rehash",
+      "count": "11",
+      "percent": "11.82"
+    },
+    {
+      "number": 5811,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "10",
-      "percent": "10.3"
+      "percent": "10.75"
     },
     {
-      "number": 7310,
+      "number": 7269,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "5",
-      "percent": "5.15"
+      "percent": "5.37"
     },
     {
-      "number": 8569,
+      "number": 8533,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "3",
-      "percent": "3.09"
+      "percent": "3.22"
     },
     {
-      "number": 9842,
+      "number": 9803,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "2",
-      "percent": "2.06"
+      "percent": "2.15"
     }
   ]
 }
