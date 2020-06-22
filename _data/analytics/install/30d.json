@@ -1,63 +1,75 @@
 {
   "category": "install",
-  "total_items": 9,
-  "start_date": "2020-05-22",
-  "end_date": "2020-06-21",
-  "total_count": 93,
+  "total_items": 11,
+  "start_date": "2020-05-23",
+  "end_date": "2020-06-22",
+  "total_count": 104,
   "items": [
     {
-      "number": 4666,
+      "number": 4582,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "19",
-      "percent": "20.43"
+      "count": "20",
+      "percent": "19.23"
     },
     {
-      "number": 4959,
+      "number": 4730,
+      "formula": "nodenv/nodenv/nodenv-package-json-engine",
+      "count": "18",
+      "percent": "17.3"
+    },
+    {
+      "number": 4935,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "16",
-      "percent": "17.2"
+      "percent": "15.38"
     },
     {
-      "number": 4960,
-      "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "16",
-      "percent": "17.2"
+      "number": 5442,
+      "formula": "nodenv/nodenv/nodenv-package-rehash",
+      "count": "12",
+      "percent": "11.53"
     },
     {
-      "number": 5642,
+      "number": 5605,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "11",
-      "percent": "11.82"
+      "percent": "10.57"
     },
     {
-      "number": 5643,
-      "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "11",
-      "percent": "11.82"
-    },
-    {
-      "number": 5811,
+      "number": 5786,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "10",
-      "percent": "10.75"
+      "percent": "9.61"
     },
     {
-      "number": 7269,
+      "number": 6828,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "5",
-      "percent": "5.37"
+      "count": "6",
+      "percent": "5.76"
     },
     {
-      "number": 8533,
+      "number": 7773,
       "formula": "nodenv/nodenv/nodenv-each",
-      "count": "3",
-      "percent": "3.22"
+      "count": "4",
+      "percent": "3.84"
     },
     {
-      "number": 9803,
+      "number": 8525,
       "formula": "nodenv/nodenv/nodenv-vars",
+      "count": "3",
+      "percent": "2.88"
+    },
+    {
+      "number": 9791,
+      "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "2",
-      "percent": "2.15"
+      "percent": "1.92"
+    },
+    {
+      "number": 9792,
+      "formula": "nodenv/nodenv/nodenv-update",
+      "count": "2",
+      "percent": "1.92"
     }
   ]
 }
