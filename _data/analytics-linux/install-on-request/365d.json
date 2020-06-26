@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-06-26",
-  "end_date": "2020-06-25",
-  "total_count": 41,
+  "start_date": "2019-06-27",
+  "end_date": "2020-06-26",
+  "total_count": 36,
   "items": [
     {
-      "number": 2791,
+      "number": 2789,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "14",
-      "percent": "34.14"
+      "percent": "38.88"
     },
     {
-      "number": 4262,
+      "number": 4265,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "6",
-      "percent": "14.63"
+      "percent": "16.66"
     },
     {
-      "number": 4263,
-      "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "6",
-      "percent": "14.63"
-    },
-    {
-      "number": 5099,
+      "number": 5093,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "4",
-      "percent": "9.75"
+      "percent": "11.11"
     },
     {
-      "number": 5100,
+      "number": 5094,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "4",
-      "percent": "9.75"
+      "percent": "11.11"
     },
     {
-      "number": 5696,
-      "formula": "nodenv/nodenv/nodenv-update",
+      "number": 5695,
+      "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "3",
-      "percent": "7.31"
+      "percent": "8.33"
     },
     {
-      "number": 6550,
+      "number": 6553,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "2",
-      "percent": "4.87"
+      "percent": "5.55"
     },
     {
-      "number": 8054,
+      "number": 8060,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "1",
-      "percent": "2.43"
+      "percent": "2.77"
     },
     {
-      "number": 8055,
+      "number": 8061,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "1",
-      "percent": "2.43"
+      "percent": "2.77"
+    },
+    {
+      "number": 8062,
+      "formula": "nodenv/nodenv/nodenv-update",
+      "count": "1",
+      "percent": "2.77"
     }
   ]
 }
