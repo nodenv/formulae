@@ -1,21 +1,21 @@
 {
   "category": "install_on_request",
   "total_items": 2,
-  "start_date": "2020-05-28",
-  "end_date": "2020-06-27",
-  "total_count": 3,
+  "start_date": "2020-05-29",
+  "end_date": "2020-06-28",
+  "total_count": 2,
   "items": [
     {
-      "number": 2383,
-      "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "2",
-      "percent": "66.66"
-    },
-    {
-      "number": 3238,
+      "number": 3234,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "1",
-      "percent": "33.33"
+      "percent": "50.0"
+    },
+    {
+      "number": 3235,
+      "formula": "nodenv/nodenv/nodenv-default-packages",
+      "count": "1",
+      "percent": "50.0"
     }
   ]
 }
