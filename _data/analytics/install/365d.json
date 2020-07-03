@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2019-07-03",
-  "end_date": "2020-07-02",
-  "total_count": 1449,
+  "start_date": "2019-07-04",
+  "end_date": "2020-07-03",
+  "total_count": 1454,
   "items": [
     {
-      "number": 3719,
+      "number": 3717,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "462",
-      "percent": "31.88"
+      "count": "464",
+      "percent": "31.91"
     },
     {
-      "number": 3889,
+      "number": 3877,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "410",
-      "percent": "28.29"
+      "count": "412",
+      "percent": "28.33"
     },
     {
-      "number": 5341,
+      "number": 5346,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "166",
-      "percent": "11.45"
+      "percent": "11.41"
     },
     {
-      "number": 5672,
+      "number": 5686,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "138",
-      "percent": "9.52"
+      "count": "137",
+      "percent": "9.42"
+    },
+    {
+      "number": 6594,
+      "formula": "nodenv/nodenv/jetbrains-npm",
+      "count": "88",
+      "percent": "6.05"
     },
     {
       "number": 6610,
-      "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "87",
-      "percent": "6.0"
-    },
-    {
-      "number": 6638,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "86",
-      "percent": "5.93"
+      "count": "87",
+      "percent": "5.98"
     },
     {
-      "number": 8343,
+      "number": 8341,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "43",
-      "percent": "2.96"
+      "percent": "2.95"
     },
     {
       "number": 9401,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "30",
-      "percent": "2.07"
+      "percent": "2.06"
     },
     {
-      "number": 9750,
+      "number": 9745,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "27",
-      "percent": "1.86"
+      "percent": "1.85"
     }
   ]
 }
