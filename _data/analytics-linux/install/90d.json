@@ -1,8 +1,8 @@
 {
   "category": "install",
   "total_items": 3,
-  "start_date": "2020-04-04",
-  "end_date": "2020-07-03",
+  "start_date": "2020-04-05",
+  "end_date": "2020-07-04",
   "total_count": 10,
   "items": [
     {
@@ -12,13 +12,13 @@
       "percent": "60.0"
     },
     {
-      "number": 3532,
+      "number": 3534,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "3",
       "percent": "30.0"
     },
     {
-      "number": 5289,
+      "number": 5295,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "1",
       "percent": "10.0"
