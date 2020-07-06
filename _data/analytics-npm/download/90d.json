@@ -1,74 +1,74 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-04-06",
-  "end_date": "2020-07-04",
-  "total_count": 2547,
+  "start_date": "2020-04-07",
+  "end_date": "2020-07-05",
+  "total_count": 2453,
   "items": [
     {
       "package": "@nodenv/jetbrains-npm",
       "count": 41,
-      "percent": "1.6"
+      "percent": "1.67"
     },
     {
       "package": "@nodenv/node-build-jxcore",
       "count": 18,
-      "percent": "0.7"
+      "percent": "0.73"
     },
     {
       "package": "@nodenv/node-build-prerelease",
       "count": 25,
-      "percent": "0.98"
+      "percent": "1.01"
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 2285,
-      "percent": "89.71"
+      "count": 2191,
+      "percent": "89.31"
     },
     {
       "package": "@nodenv/nodenv-aliases",
       "count": 26,
-      "percent": "1.02"
+      "percent": "1.05"
     },
     {
       "package": "@nodenv/nodenv-default-packages",
       "count": 27,
-      "percent": "1.06"
+      "percent": "1.1"
     },
     {
       "package": "@nodenv/nodenv-each",
       "count": 17,
-      "percent": "0.66"
+      "percent": "0.69"
     },
     {
       "package": "@nodenv/nodenv-man",
       "count": 16,
-      "percent": "0.62"
+      "percent": "0.65"
     },
     {
       "package": "@nodenv/nodenv-npm-migrate",
       "count": 18,
-      "percent": "0.7"
+      "percent": "0.73"
     },
     {
       "package": "@nodenv/nodenv-package-json-engine",
       "count": 16,
-      "percent": "0.62"
+      "percent": "0.65"
     },
     {
       "package": "@nodenv/nodenv-package-rehash",
       "count": 22,
-      "percent": "0.86"
+      "percent": "0.89"
     },
     {
       "package": "@nodenv/nodenv-update",
       "count": 19,
-      "percent": "0.74"
+      "percent": "0.77"
     },
     {
       "package": "@nodenv/nodenv-vars",
       "count": 17,
-      "percent": "0.66"
+      "percent": "0.69"
     }
   ]
 }
