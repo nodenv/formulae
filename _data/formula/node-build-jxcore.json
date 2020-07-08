@@ -9,6 +9,7 @@
 
   ],
   "desc": "Install JXCore versions",
+  "license": null,
   "homepage": "https://github.com/nodenv/node-build-jxcore",
   "versions": {
     "stable": "1.0.1",

@@ -9,6 +9,7 @@
 
   ],
   "desc": "Auto-installs packages for Node installs",
+  "license": null,
   "homepage": "https://github.com/nodenv/nodenv-default-packages",
   "versions": {
     "stable": "1.0.0",

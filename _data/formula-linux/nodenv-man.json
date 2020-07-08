@@ -9,6 +9,7 @@
 
   ],
   "desc": "View man pages for currently active node version",
+  "license": null,
   "homepage": "https://github.com/nodenv/nodenv-man",
   "versions": {
     "stable": "1.1.0",

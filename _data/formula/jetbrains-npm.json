@@ -9,6 +9,7 @@
 
   ],
   "desc": "Fix IntelliJ/WebStorm's npm integration under nodenv",
+  "license": null,
   "homepage": "https://github.com/nodenv/jetbrains-npm",
   "versions": {
     "stable": "1.0.0",

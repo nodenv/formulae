@@ -9,6 +9,7 @@
 
   ],
   "desc": "Create aliases for nodenv Node versions",
+  "license": null,
   "homepage": "https://github.com/nodenv/nodenv-aliases",
   "versions": {
     "stable": "2.0.2",

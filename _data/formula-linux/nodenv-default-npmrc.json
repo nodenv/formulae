@@ -9,6 +9,7 @@
 
   ],
   "desc": "Automatically installs a root npmrc for each node version",
+  "license": null,
   "homepage": "https://github.com/deiga/nodenv-default-npmrc",
   "versions": {
     "stable": "1.0.0",

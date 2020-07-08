@@ -9,6 +9,7 @@
 
   ],
   "desc": "Migrate npm packages from one Node version to another",
+  "license": null,
   "homepage": "https://github.com/nodenv/nodenv-npm-migrate",
   "versions": {
     "stable": "0.1.1",

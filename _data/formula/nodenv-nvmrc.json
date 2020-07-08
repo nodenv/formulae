@@ -9,6 +9,7 @@
 
   ],
   "desc": "Pick a node version from .nvmrc",
+  "license": null,
   "homepage": "https://github.com/ouchxp/nodenv-nvmrc",
   "versions": {
     "stable": "1.0.2",

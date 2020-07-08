@@ -9,6 +9,7 @@
 
   ],
   "desc": "Update nodenv plugins not installed with Homebrew",
+  "license": null,
   "homepage": "https://github.com/charlesbjohnson/nodenv-update",
   "versions": {
     "stable": "1.0.0",

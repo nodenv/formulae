@@ -9,6 +9,7 @@
 
   ],
   "desc": "Scrape build definitions from nodejs.org and iojs.org",
+  "license": null,
   "homepage": "https://github.com/nodenv/node-build-update-defs",
   "versions": {
     "stable": "2.9.4",

@@ -9,6 +9,7 @@
 
   ],
   "desc": "Pick a node version from package.json engines",
+  "license": null,
   "homepage": "https://github.com/nodenv/nodenv-package-json-engine",
   "versions": {
     "stable": "3.0.3",

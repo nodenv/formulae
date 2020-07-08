@@ -1,57 +1,63 @@
 {
   "category": "install_on_request",
-  "total_items": 8,
-  "start_date": "2020-04-08",
-  "end_date": "2020-07-07",
-  "total_count": 320,
+  "total_items": 9,
+  "start_date": "2020-04-09",
+  "end_date": "2020-07-08",
+  "total_count": 324,
   "items": [
     {
-      "number": 3547,
+      "number": 3623,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "101",
-      "percent": "31.56"
+      "count": "96",
+      "percent": "29.62"
     },
     {
-      "number": 3909,
+      "number": 3872,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "80",
-      "percent": "25.0"
+      "count": "82",
+      "percent": "25.3"
     },
     {
-      "number": 5206,
-      "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "37",
-      "percent": "11.56"
-    },
-    {
-      "number": 5292,
+      "number": 5221,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "35",
-      "percent": "10.93"
+      "count": "37",
+      "percent": "11.41"
     },
     {
-      "number": 5655,
+      "number": 5264,
+      "formula": "nodenv/nodenv/nodenv-aliases",
+      "count": "36",
+      "percent": "11.11"
+    },
+    {
+      "number": 5660,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "29",
-      "percent": "9.06"
+      "percent": "8.95"
     },
     {
-      "number": 6323,
+      "number": 6321,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "21",
-      "percent": "6.56"
+      "percent": "6.48"
     },
     {
-      "number": 7936,
+      "number": 7929,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "11",
-      "percent": "3.43"
+      "percent": "3.39"
     },
     {
-      "number": 9794,
+      "number": 9806,
+      "formula": "nodenv/nodenv/nodenv-npm-migrate",
+      "count": "6",
+      "percent": "1.85"
+    },
+    {
+      "number": 9807,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "6",
-      "percent": "1.87"
+      "percent": "1.85"
     }
   ]
 }
