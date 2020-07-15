@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2019-07-15",
-  "end_date": "2020-07-14",
-  "total_count": 1468,
+  "start_date": "2019-07-16",
+  "end_date": "2020-07-15",
+  "total_count": 1475,
   "items": [
     {
-      "number": 3682,
+      "number": 3678,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "476",
-      "percent": "32.42"
+      "count": "478",
+      "percent": "32.4"
     },
     {
-      "number": 3896,
+      "number": 3890,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "411",
-      "percent": "27.99"
+      "count": "413",
+      "percent": "28.0"
     },
     {
-      "number": 5357,
+      "number": 5335,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "166",
-      "percent": "11.3"
+      "count": "168",
+      "percent": "11.38"
     },
     {
-      "number": 5718,
+      "number": 5737,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "136",
-      "percent": "9.26"
+      "count": "135",
+      "percent": "9.15"
     },
     {
-      "number": 6534,
+      "number": 6531,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "91",
-      "percent": "6.19"
+      "percent": "6.16"
     },
     {
-      "number": 6600,
+      "number": 6586,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "88",
-      "percent": "5.99"
+      "count": "89",
+      "percent": "6.03"
     },
     {
-      "number": 8351,
+      "number": 8348,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "43",
-      "percent": "2.92"
+      "percent": "2.91"
     },
     {
-      "number": 9349,
+      "number": 9355,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "31",
-      "percent": "2.11"
+      "percent": "2.1"
     },
     {
-      "number": 9931,
+      "number": 9784,
       "formula": "nodenv/nodenv/nodenv-vars",
-      "count": "26",
-      "percent": "1.77"
+      "count": "27",
+      "percent": "1.83"
     }
   ]
 }
