@@ -1,12 +1,12 @@
 {
   "category": "install",
   "total_items": 1,
-  "start_date": "2020-06-25",
-  "end_date": "2020-07-25",
+  "start_date": "2020-06-26",
+  "end_date": "2020-07-26",
   "total_count": 1,
   "items": [
     {
-      "number": 3725,
+      "number": 3712,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "1",
       "percent": "100.0"
