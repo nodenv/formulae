@@ -1,66 +1,66 @@
 {
   "category": "install_on_request",
   "total_items": 10,
-  "start_date": "2019-07-29",
-  "end_date": "2020-07-28",
-  "total_count": 1496,
+  "start_date": "2019-07-30",
+  "end_date": "2020-07-29",
+  "total_count": 1498,
   "items": [
     {
-      "number": 3290,
+      "number": 3286,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "480",
-      "percent": "32.08"
+      "count": "481",
+      "percent": "32.1"
     },
     {
-      "number": 3515,
+      "number": 3513,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "411",
-      "percent": "27.47"
+      "count": "412",
+      "percent": "27.5"
     },
     {
-      "number": 5014,
+      "number": 5013,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "164",
-      "percent": "10.96"
+      "percent": "10.94"
     },
     {
-      "number": 5405,
+      "number": 5396,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "132",
-      "percent": "8.82"
+      "count": "133",
+      "percent": "8.87"
     },
     {
-      "number": 6147,
+      "number": 6171,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "92",
-      "percent": "6.14"
+      "count": "91",
+      "percent": "6.07"
     },
     {
-      "number": 6177,
+      "number": 6172,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "91",
-      "percent": "6.08"
+      "percent": "6.07"
     },
     {
-      "number": 7835,
+      "number": 7838,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "45",
       "percent": "3.0"
     },
     {
-      "number": 9101,
+      "number": 9100,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "29",
       "percent": "1.93"
     },
     {
-      "number": 9102,
+      "number": 9101,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "29",
       "percent": "1.93"
     },
     {
-      "number": 9956,
+      "number": 9959,
       "formula": "nodenv/nodenv/nodenv-update",
       "count": "23",
       "percent": "1.53"

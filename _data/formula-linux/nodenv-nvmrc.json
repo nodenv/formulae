@@ -12,14 +12,14 @@
   "license": null,
   "homepage": "https://github.com/ouchxp/nodenv-nvmrc",
   "versions": {
-    "stable": "1.0.3",
+    "stable": "1.0.5",
     "devel": null,
     "head": "HEAD",
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/ouchxp/nodenv-nvmrc/archive/v1.0.3.tar.gz",
+      "url": "https://github.com/ouchxp/nodenv-nvmrc/archive/v1.0.5.tar.gz",
       "tag": null,
       "revision": null
     }
