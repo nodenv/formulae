@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2019-07-31",
-  "end_date": "2020-07-30",
-  "total_count": 1479,
+  "start_date": "2019-08-01",
+  "end_date": "2020-07-31",
+  "total_count": 1481,
   "items": [
     {
-      "number": 3661,
+      "number": 3664,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "483",
-      "percent": "32.65"
+      "count": "482",
+      "percent": "32.54"
     },
     {
-      "number": 3897,
+      "number": 3885,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "414",
-      "percent": "27.99"
+      "count": "416",
+      "percent": "28.08"
     },
     {
-      "number": 5384,
+      "number": 5378,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "163",
-      "percent": "11.02"
+      "count": "164",
+      "percent": "11.07"
     },
     {
-      "number": 5766,
+      "number": 5774,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "134",
-      "percent": "9.06"
+      "count": "133",
+      "percent": "8.98"
     },
     {
-      "number": 6527,
+      "number": 6481,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "92",
-      "percent": "6.22"
+      "count": "94",
+      "percent": "6.34"
     },
     {
-      "number": 6571,
+      "number": 6580,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "90",
-      "percent": "6.08"
+      "percent": "6.07"
     },
     {
-      "number": 8241,
+      "number": 8299,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "45",
-      "percent": "3.04"
+      "count": "44",
+      "percent": "2.97"
+    },
+    {
+      "number": 9545,
+      "formula": "nodenv/nodenv/nodenv-each",
+      "count": "29",
+      "percent": "1.95"
     },
     {
       "number": 9546,
-      "formula": "nodenv/nodenv/nodenv-each",
-      "count": "29",
-      "percent": "1.96"
-    },
-    {
-      "number": 9547,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "29",
-      "percent": "1.96"
+      "percent": "1.95"
     }
   ]
 }
