@@ -1,66 +1,66 @@
 {
   "category": "install_on_request",
   "total_items": 10,
-  "start_date": "2019-08-06",
-  "end_date": "2020-08-05",
+  "start_date": "2019-08-07",
+  "end_date": "2020-08-06",
   "total_count": 1493,
   "items": [
     {
-      "number": 3282,
+      "number": 3285,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "482",
       "percent": "32.28"
     },
     {
-      "number": 3536,
+      "number": 3528,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "408",
-      "percent": "27.32"
+      "count": "410",
+      "percent": "27.46"
     },
     {
-      "number": 5026,
+      "number": 5025,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "163",
       "percent": "10.91"
     },
     {
-      "number": 5471,
+      "number": 5514,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "128",
-      "percent": "8.57"
+      "count": "126",
+      "percent": "8.43"
     },
     {
-      "number": 6072,
+      "number": 6044,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "96",
-      "percent": "6.43"
+      "count": "97",
+      "percent": "6.49"
     },
     {
-      "number": 6229,
+      "number": 6272,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "89",
-      "percent": "5.96"
+      "count": "87",
+      "percent": "5.82"
     },
     {
-      "number": 7959,
+      "number": 7951,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "43",
       "percent": "2.88"
     },
     {
-      "number": 9011,
+      "number": 9016,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "30",
       "percent": "2.0"
     },
     {
-      "number": 9116,
+      "number": 9017,
       "formula": "nodenv/nodenv/nodenv-vars",
-      "count": "29",
-      "percent": "1.94"
+      "count": "30",
+      "percent": "2.0"
     },
     {
-      "number": 9639,
+      "number": 9638,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "25",
       "percent": "1.67"
