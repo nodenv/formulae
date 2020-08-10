@@ -1,63 +1,69 @@
 {
   "category": "install",
-  "total_items": 9,
-  "start_date": "2019-08-10",
-  "end_date": "2020-08-09",
-  "total_count": 1470,
+  "total_items": 10,
+  "start_date": "2019-08-11",
+  "end_date": "2020-08-10",
+  "total_count": 1494,
   "items": [
     {
       "number": 3678,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "483",
-      "percent": "32.85"
+      "percent": "32.32"
     },
     {
-      "number": 3916,
+      "number": 3919,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "410",
-      "percent": "27.89"
+      "count": "409",
+      "percent": "27.37"
     },
     {
-      "number": 5381,
+      "number": 5377,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "164",
-      "percent": "11.15"
+      "percent": "10.97"
     },
     {
-      "number": 5902,
+      "number": 5921,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "126",
-      "percent": "8.57"
+      "count": "125",
+      "percent": "8.36"
     },
     {
-      "number": 6393,
+      "number": 6392,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "98",
-      "percent": "6.66"
+      "percent": "6.55"
     },
     {
-      "number": 6669,
+      "number": 6670,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "86",
-      "percent": "5.85"
+      "percent": "5.75"
     },
     {
-      "number": 8369,
+      "number": 8370,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "43",
-      "percent": "2.92"
+      "percent": "2.87"
     },
     {
-      "number": 9444,
+      "number": 9442,
       "formula": "nodenv/nodenv/nodenv-each",
       "count": "30",
-      "percent": "2.04"
+      "percent": "2.0"
     },
     {
-      "number": 9445,
+      "number": 9443,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "30",
-      "percent": "2.04"
+      "percent": "2.0"
+    },
+    {
+      "number": 9958,
+      "formula": "nodenv/nodenv/nodenv-nvmrc",
+      "count": "26",
+      "percent": "1.74"
     }
   ]
 }
