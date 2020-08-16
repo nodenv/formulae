@@ -1,18 +1,18 @@
 {
   "category": "install_on_request",
   "total_items": 2,
-  "start_date": "2020-07-16",
-  "end_date": "2020-08-15",
+  "start_date": "2020-07-17",
+  "end_date": "2020-08-16",
   "total_count": 2,
   "items": [
     {
-      "number": 3107,
+      "number": 3074,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "1",
       "percent": "50.0"
     },
     {
-      "number": 3108,
+      "number": 3075,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "1",
       "percent": "50.0"
