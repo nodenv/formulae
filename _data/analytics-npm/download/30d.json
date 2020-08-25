@@ -1,9 +1,9 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-07-25",
-  "end_date": "2020-08-23",
-  "total_count": 947,
+  "start_date": "2020-07-26",
+  "end_date": "2020-08-24",
+  "total_count": 942,
   "items": [
     {
       "package": "@nodenv/jetbrains-npm",
@@ -22,8 +22,8 @@
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 922,
-      "percent": "97.36"
+      "count": 918,
+      "percent": "97.45"
     },
     {
       "package": "@nodenv/nodenv-aliases",
@@ -32,8 +32,8 @@
     },
     {
       "package": "@nodenv/nodenv-default-packages",
-      "count": 2,
-      "percent": "0.21"
+      "count": 1,
+      "percent": "0.1"
     },
     {
       "package": "@nodenv/nodenv-each",

@@ -1,60 +1,60 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-08-25",
-  "end_date": "2020-08-24",
-  "total_count": 1453,
+  "start_date": "2019-08-26",
+  "end_date": "2020-08-25",
+  "total_count": 1457,
   "items": [
     {
-      "number": 3295,
+      "number": 3294,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "484",
-      "percent": "33.31"
+      "count": "486",
+      "percent": "33.35"
     },
     {
-      "number": 3612,
+      "number": 3614,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "390",
-      "percent": "26.84"
+      "percent": "26.76"
     },
     {
-      "number": 5086,
+      "number": 5058,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "160",
-      "percent": "11.01"
+      "count": "162",
+      "percent": "11.11"
     },
     {
-      "number": 5514,
+      "number": 5521,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "127",
-      "percent": "8.74"
+      "percent": "8.71"
     },
     {
-      "number": 6010,
+      "number": 5996,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "99",
-      "percent": "6.81"
+      "count": "100",
+      "percent": "6.86"
     },
     {
-      "number": 6245,
+      "number": 6268,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "89",
-      "percent": "6.12"
+      "count": "88",
+      "percent": "6.03"
     },
     {
-      "number": 7747,
+      "number": 7836,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "47",
-      "percent": "3.23"
+      "count": "46",
+      "percent": "3.15"
     },
     {
-      "number": 9157,
+      "number": 9053,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "29",
-      "percent": "1.99"
+      "count": "30",
+      "percent": "2.05"
     },
     {
-      "number": 9256,
+      "number": 9265,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "28",
       "percent": "1.92"
