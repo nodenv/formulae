@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2020-07-27",
-  "end_date": "2020-08-26",
-  "total_count": 95,
+  "start_date": "2020-07-28",
+  "end_date": "2020-08-27",
+  "total_count": 100,
   "items": [
     {
-      "number": 4761,
+      "number": 4666,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "19",
+      "count": "20",
       "percent": "20.0"
     },
     {
-      "number": 4830,
+      "number": 4835,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "18",
-      "percent": "18.94"
+      "percent": "18.0"
     },
     {
-      "number": 5163,
+      "number": 4930,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "15",
-      "percent": "15.78"
+      "count": "17",
+      "percent": "17.0"
     },
     {
-      "number": 5558,
+      "number": 5551,
+      "formula": "nodenv/nodenv/nodenv-nvmrc",
+      "count": "12",
+      "percent": "12.0"
+    },
+    {
+      "number": 5552,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "12",
-      "percent": "12.63"
+      "percent": "12.0"
     },
     {
       "number": 5714,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "11",
-      "percent": "11.57"
+      "percent": "11.0"
     },
     {
-      "number": 5715,
-      "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "11",
-      "percent": "11.57"
+      "number": 7866,
+      "formula": "nodenv/nodenv/jetbrains-npm",
+      "count": "4",
+      "percent": "4.0"
     },
     {
-      "number": 7869,
+      "number": 7867,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "4",
-      "percent": "4.21"
+      "percent": "4.0"
     },
     {
-      "number": 8617,
-      "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "3",
-      "percent": "3.15"
-    },
-    {
-      "number": 9849,
+      "number": 9861,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "2",
-      "percent": "2.1"
+      "percent": "2.0"
     }
   ]
 }
