@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2020-07-31",
-  "end_date": "2020-08-30",
-  "total_count": 93,
+  "start_date": "2020-08-01",
+  "end_date": "2020-08-31",
+  "total_count": 86,
   "items": [
     {
-      "number": 4543,
+      "number": 4701,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "21",
-      "percent": "22.58"
+      "count": "19",
+      "percent": "22.09"
     },
     {
-      "number": 5124,
+      "number": 5223,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "15",
-      "percent": "16.12"
+      "count": "14",
+      "percent": "16.27"
     },
     {
-      "number": 5125,
+      "number": 5224,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "15",
-      "percent": "16.12"
+      "count": "14",
+      "percent": "16.27"
     },
     {
-      "number": 5874,
+      "number": 5857,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "10",
-      "percent": "10.75"
+      "percent": "11.62"
     },
     {
-      "number": 5875,
-      "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "10",
-      "percent": "10.75"
-    },
-    {
-      "number": 5876,
+      "number": 5858,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "10",
-      "percent": "10.75"
+      "percent": "11.62"
+    },
+    {
+      "number": 6296,
+      "formula": "nodenv/nodenv/nodenv-nvmrc",
+      "count": "8",
+      "percent": "9.3"
+    },
+    {
+      "number": 7824,
+      "formula": "nodenv/nodenv/nodenv-npm-migrate",
+      "count": "4",
+      "percent": "4.65"
     },
     {
       "number": 7825,
-      "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "4",
-      "percent": "4.3"
-    },
-    {
-      "number": 7826,
-      "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "4",
-      "percent": "4.3"
-    },
-    {
-      "number": 7827,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "4",
-      "percent": "4.3"
+      "percent": "4.65"
+    },
+    {
+      "number": 8563,
+      "formula": "nodenv/nodenv/jetbrains-npm",
+      "count": "3",
+      "percent": "3.48"
     }
   ]
 }
