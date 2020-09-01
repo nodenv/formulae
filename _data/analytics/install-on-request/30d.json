@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2020-08-01",
-  "end_date": "2020-08-31",
-  "total_count": 86,
+  "start_date": "2020-08-02",
+  "end_date": "2020-09-01",
+  "total_count": 89,
   "items": [
     {
-      "number": 4384,
+      "number": 4319,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "19",
-      "percent": "22.09"
+      "count": "20",
+      "percent": "22.47"
     },
     {
-      "number": 4910,
+      "number": 4940,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "14",
-      "percent": "16.27"
+      "percent": "15.73"
     },
     {
-      "number": 4911,
+      "number": 4941,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "14",
-      "percent": "16.27"
+      "percent": "15.73"
     },
     {
-      "number": 5543,
+      "number": 5385,
+      "formula": "nodenv/nodenv/nodenv-package-rehash",
+      "count": "11",
+      "percent": "12.35"
+    },
+    {
+      "number": 5570,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "10",
-      "percent": "11.62"
+      "percent": "11.23"
     },
     {
-      "number": 5544,
-      "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "10",
-      "percent": "11.62"
-    },
-    {
-      "number": 5963,
+      "number": 5997,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "8",
-      "percent": "9.3"
+      "percent": "8.98"
     },
     {
-      "number": 7497,
+      "number": 7540,
+      "formula": "nodenv/nodenv/jetbrains-npm",
+      "count": "4",
+      "percent": "4.49"
+    },
+    {
+      "number": 7541,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "4",
-      "percent": "4.65"
+      "percent": "4.49"
     },
     {
-      "number": 7498,
+      "number": 7542,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "4",
-      "percent": "4.65"
-    },
-    {
-      "number": 8235,
-      "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "3",
-      "percent": "3.48"
+      "percent": "4.49"
     }
   ]
 }
