@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-09-04",
-  "end_date": "2020-09-03",
-  "total_count": 1436,
+  "start_date": "2019-09-06",
+  "end_date": "2020-09-05",
+  "total_count": 1417,
   "items": [
     {
-      "number": 3357,
+      "number": 3406,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "468",
-      "percent": "32.59"
+      "count": "452",
+      "percent": "31.89"
     },
     {
-      "number": 3659,
+      "number": 3705,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "382",
-      "percent": "26.6"
+      "count": "374",
+      "percent": "26.39"
     },
     {
-      "number": 5095,
+      "number": 5114,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "160",
-      "percent": "11.14"
+      "count": "159",
+      "percent": "11.22"
     },
     {
-      "number": 5501,
+      "number": 5509,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "129",
-      "percent": "8.98"
+      "percent": "9.1"
     },
     {
-      "number": 5965,
+      "number": 5932,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "102",
-      "percent": "7.1"
+      "count": "104",
+      "percent": "7.33"
     },
     {
-      "number": 6287,
+      "number": 6289,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "88",
-      "percent": "6.12"
+      "percent": "6.21"
     },
     {
       "number": 7873,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "46",
-      "percent": "3.2"
+      "percent": "3.24"
     },
     {
-      "number": 8968,
+      "number": 8680,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "31",
-      "percent": "2.15"
+      "count": "34",
+      "percent": "2.39"
     },
     {
-      "number": 9071,
+      "number": 8971,
       "formula": "nodenv/nodenv/nodenv-vars",
-      "count": "30",
-      "percent": "2.08"
+      "count": "31",
+      "percent": "2.18"
     }
   ]
 }
