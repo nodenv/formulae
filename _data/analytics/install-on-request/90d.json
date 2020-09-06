@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2020-06-07",
-  "end_date": "2020-09-05",
-  "total_count": 305,
+  "start_date": "2020-06-08",
+  "end_date": "2020-09-06",
+  "total_count": 310,
   "items": [
     {
-      "number": 4199,
+      "number": 4183,
+      "formula": "nodenv/nodenv/nodenv-default-packages",
+      "count": "65",
+      "percent": "20.96"
+    },
+    {
+      "number": 4206,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "64",
-      "percent": "20.98"
+      "percent": "20.64"
     },
     {
-      "number": 4272,
-      "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "61",
-      "percent": "20.0"
-    },
-    {
-      "number": 4729,
+      "number": 4695,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "46",
-      "percent": "15.08"
+      "count": "47",
+      "percent": "15.16"
     },
     {
-      "number": 5368,
+      "number": 5376,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "32",
-      "percent": "10.49"
+      "percent": "10.32"
     },
     {
-      "number": 5438,
+      "number": 5444,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "31",
-      "percent": "10.16"
+      "percent": "10.0"
     },
     {
-      "number": 5497,
+      "number": 5509,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "30",
-      "percent": "9.83"
+      "percent": "9.67"
     },
     {
-      "number": 6554,
+      "number": 6559,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "18",
-      "percent": "5.9"
+      "percent": "5.8"
     },
     {
-      "number": 7588,
+      "number": 7585,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "12",
-      "percent": "3.93"
+      "percent": "3.87"
     },
     {
-      "number": 7795,
+      "number": 7796,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "11",
-      "percent": "3.6"
+      "percent": "3.54"
     }
   ]
 }

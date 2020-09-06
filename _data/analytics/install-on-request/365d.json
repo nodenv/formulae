@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-09-06",
-  "end_date": "2020-09-05",
-  "total_count": 1417,
+  "start_date": "2019-09-07",
+  "end_date": "2020-09-06",
+  "total_count": 1411,
   "items": [
     {
-      "number": 3406,
+      "number": 3403,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "452",
-      "percent": "31.89"
+      "count": "453",
+      "percent": "32.1"
     },
     {
-      "number": 3705,
+      "number": 3726,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "374",
-      "percent": "26.39"
+      "count": "369",
+      "percent": "26.15"
     },
     {
-      "number": 5114,
+      "number": 5125,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "159",
-      "percent": "11.22"
+      "count": "158",
+      "percent": "11.19"
     },
     {
-      "number": 5509,
+      "number": 5493,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "129",
-      "percent": "9.1"
+      "count": "130",
+      "percent": "9.21"
     },
     {
-      "number": 5932,
+      "number": 5933,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "104",
-      "percent": "7.33"
+      "percent": "7.37"
     },
     {
-      "number": 6289,
+      "number": 6329,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "88",
-      "percent": "6.21"
+      "count": "86",
+      "percent": "6.09"
     },
     {
-      "number": 7873,
+      "number": 7874,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "46",
-      "percent": "3.24"
+      "percent": "3.26"
     },
     {
-      "number": 8680,
+      "number": 8682,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "34",
-      "percent": "2.39"
+      "percent": "2.4"
     },
     {
-      "number": 8971,
+      "number": 8969,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "31",
-      "percent": "2.18"
+      "percent": "2.19"
     }
   ]
 }
