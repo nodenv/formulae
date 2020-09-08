@@ -1,33 +1,33 @@
 {
   "category": "install",
   "total_items": 4,
-  "start_date": "2020-06-09",
-  "end_date": "2020-09-07",
-  "total_count": 4,
+  "start_date": "2020-06-10",
+  "end_date": "2020-09-08",
+  "total_count": 5,
   "items": [
     {
-      "number": 5281,
+      "number": 4134,
+      "formula": "nodenv/nodenv/nodenv-npm-migrate",
+      "count": "2",
+      "percent": "40.0"
+    },
+    {
+      "number": 5286,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "1",
-      "percent": "25.0"
+      "percent": "20.0"
     },
     {
-      "number": 5282,
-      "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "1",
-      "percent": "25.0"
-    },
-    {
-      "number": 5283,
+      "number": 5287,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "1",
-      "percent": "25.0"
+      "percent": "20.0"
     },
     {
-      "number": 5284,
+      "number": 5288,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "1",
-      "percent": "25.0"
+      "percent": "20.0"
     }
   ]
 }
