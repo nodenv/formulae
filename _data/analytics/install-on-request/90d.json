@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2020-06-14",
-  "end_date": "2020-09-12",
-  "total_count": 304,
+  "start_date": "2020-06-15",
+  "end_date": "2020-09-13",
+  "total_count": 305,
   "items": [
     {
-      "number": 4152,
+      "number": 4154,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "67",
-      "percent": "22.03"
+      "percent": "21.96"
     },
     {
-      "number": 4281,
+      "number": 4243,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "61",
-      "percent": "20.06"
+      "count": "63",
+      "percent": "20.65"
     },
     {
-      "number": 4895,
+      "number": 4899,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "42",
-      "percent": "13.81"
+      "percent": "13.77"
     },
     {
-      "number": 5387,
+      "number": 5383,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "32",
-      "percent": "10.52"
+      "percent": "10.49"
     },
     {
-      "number": 5460,
+      "number": 5467,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "31",
-      "percent": "10.19"
+      "percent": "10.16"
     },
     {
-      "number": 5532,
+      "number": 5584,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "30",
-      "percent": "9.86"
+      "count": "29",
+      "percent": "9.5"
     },
     {
-      "number": 6432,
+      "number": 6430,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "19",
-      "percent": "6.25"
+      "percent": "6.22"
     },
     {
-      "number": 7548,
+      "number": 7547,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "12",
-      "percent": "3.94"
+      "percent": "3.93"
     },
     {
-      "number": 7989,
+      "number": 7994,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "10",
-      "percent": "3.28"
+      "percent": "3.27"
     }
   ]
 }
