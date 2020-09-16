@@ -13,7 +13,6 @@
   "homepage": "https://github.com/nodenv/node-build-update-defs",
   "versions": {
     "stable": "2.9.4",
-    "devel": null,
     "head": "HEAD",
     "bottle": false
   },

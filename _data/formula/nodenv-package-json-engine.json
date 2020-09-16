@@ -13,7 +13,6 @@
   "homepage": "https://github.com/nodenv/nodenv-package-json-engine",
   "versions": {
     "stable": "3.0.3",
-    "devel": null,
     "head": "HEAD",
     "bottle": false
   },

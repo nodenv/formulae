@@ -13,7 +13,6 @@
   "homepage": "https://github.com/nodenv/nodenv-npm-migrate",
   "versions": {
     "stable": "0.1.1",
-    "devel": null,
     "head": "HEAD",
     "bottle": false
   },
