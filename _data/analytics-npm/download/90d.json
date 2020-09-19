@@ -1,8 +1,8 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-06-20",
-  "end_date": "2020-09-17",
+  "start_date": "2020-06-21",
+  "end_date": "2020-09-18",
   "total_count": 2220,
   "items": [
     {
@@ -12,8 +12,8 @@
     },
     {
       "package": "@nodenv/node-build-jxcore",
-      "count": 16,
-      "percent": "0.72"
+      "count": 15,
+      "percent": "0.67"
     },
     {
       "package": "@nodenv/node-build-prerelease",
@@ -22,13 +22,13 @@
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 2005,
-      "percent": "90.31"
+      "count": 2009,
+      "percent": "90.49"
     },
     {
       "package": "@nodenv/nodenv-aliases",
-      "count": 20,
-      "percent": "0.9"
+      "count": 19,
+      "percent": "0.85"
     },
     {
       "package": "@nodenv/nodenv-default-packages",
@@ -52,8 +52,8 @@
     },
     {
       "package": "@nodenv/nodenv-package-json-engine",
-      "count": 15,
-      "percent": "0.67"
+      "count": 14,
+      "percent": "0.63"
     },
     {
       "package": "@nodenv/nodenv-package-rehash",
@@ -67,8 +67,8 @@
     },
     {
       "package": "@nodenv/nodenv-vars",
-      "count": 13,
-      "percent": "0.58"
+      "count": 12,
+      "percent": "0.54"
     }
   ]
 }
