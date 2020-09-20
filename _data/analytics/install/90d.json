@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2020-06-21",
-  "end_date": "2020-09-19",
-  "total_count": 305,
+  "start_date": "2020-06-22",
+  "end_date": "2020-09-20",
+  "total_count": 300,
   "items": [
     {
-      "number": 4356,
+      "number": 4373,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "72",
-      "percent": "23.6"
+      "count": "71",
+      "percent": "23.66"
     },
     {
-      "number": 4502,
+      "number": 4532,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "65",
-      "percent": "21.31"
+      "count": "64",
+      "percent": "21.33"
     },
     {
-      "number": 5319,
+      "number": 5415,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "40",
-      "percent": "13.11"
+      "count": "38",
+      "percent": "12.66"
     },
     {
-      "number": 5886,
+      "number": 5885,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "30",
-      "percent": "9.83"
+      "percent": "10.0"
     },
     {
-      "number": 5947,
+      "number": 6007,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "29",
-      "percent": "9.5"
-    },
-    {
-      "number": 5999,
-      "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "28",
-      "percent": "9.18"
+      "percent": "9.33"
     },
     {
-      "number": 6883,
+      "number": 6077,
+      "formula": "nodenv/nodenv/nodenv-aliases",
+      "count": "27",
+      "percent": "9.0"
+    },
+    {
+      "number": 6774,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "18",
-      "percent": "5.9"
+      "count": "19",
+      "percent": "6.33"
     },
     {
-      "number": 7883,
+      "number": 7682,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "12",
-      "percent": "3.93"
+      "count": "13",
+      "percent": "4.33"
     },
     {
-      "number": 8113,
+      "number": 8350,
       "formula": "nodenv/nodenv/nodenv-vars",
-      "count": "11",
-      "percent": "3.6"
+      "count": "10",
+      "percent": "3.33"
     }
   ]
 }
