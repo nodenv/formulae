@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2019-09-22",
-  "end_date": "2020-09-21",
-  "total_count": 1373,
+  "start_date": "2019-09-23",
+  "end_date": "2020-09-22",
+  "total_count": 1379,
   "items": [
     {
-      "number": 3905,
+      "number": 3909,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "418",
-      "percent": "30.44"
+      "percent": "30.31"
     },
     {
-      "number": 4084,
+      "number": 4082,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "369",
-      "percent": "26.87"
+      "count": "370",
+      "percent": "26.83"
     },
     {
-      "number": 5561,
+      "number": 5568,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "151",
-      "percent": "10.99"
+      "percent": "10.94"
     },
     {
-      "number": 5898,
+      "number": 5883,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "128",
-      "percent": "9.32"
+      "count": "129",
+      "percent": "9.35"
     },
     {
-      "number": 6353,
+      "number": 6310,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "104",
-      "percent": "7.57"
+      "count": "106",
+      "percent": "7.68"
     },
     {
-      "number": 6708,
+      "number": 6694,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "87",
-      "percent": "6.33"
+      "count": "88",
+      "percent": "6.38"
     },
     {
-      "number": 8108,
+      "number": 8116,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "49",
-      "percent": "3.56"
+      "percent": "3.55"
     },
     {
-      "number": 8967,
+      "number": 8916,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "36",
-      "percent": "2.62"
+      "count": "37",
+      "percent": "2.68"
     },
     {
-      "number": 9424,
+      "number": 9430,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "31",
-      "percent": "2.25"
+      "percent": "2.24"
     }
   ]
 }
