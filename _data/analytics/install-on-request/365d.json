@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-09-23",
-  "end_date": "2020-09-22",
-  "total_count": 1377,
+  "start_date": "2019-09-24",
+  "end_date": "2020-09-23",
+  "total_count": 1370,
   "items": [
     {
-      "number": 3535,
+      "number": 3554,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "417",
-      "percent": "30.28"
+      "count": "414",
+      "percent": "30.21"
     },
     {
-      "number": 3720,
+      "number": 3726,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "369",
-      "percent": "26.79"
+      "count": "368",
+      "percent": "26.86"
     },
     {
-      "number": 5200,
+      "number": 5202,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "151",
-      "percent": "10.96"
+      "percent": "11.02"
     },
     {
-      "number": 5523,
+      "number": 5526,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "129",
-      "percent": "9.36"
+      "percent": "9.41"
     },
     {
-      "number": 5911,
+      "number": 5939,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "106",
-      "percent": "7.69"
+      "count": "105",
+      "percent": "7.66"
     },
     {
-      "number": 6325,
+      "number": 6349,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "88",
-      "percent": "6.39"
+      "count": "87",
+      "percent": "6.35"
     },
     {
-      "number": 7698,
+      "number": 7705,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "49",
-      "percent": "3.55"
+      "percent": "3.57"
     },
     {
-      "number": 8498,
+      "number": 8502,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "37",
-      "percent": "2.68"
+      "percent": "2.7"
     },
     {
-      "number": 9017,
+      "number": 9119,
       "formula": "nodenv/nodenv/nodenv-vars",
-      "count": "31",
-      "percent": "2.25"
+      "count": "30",
+      "percent": "2.18"
     }
   ]
 }
