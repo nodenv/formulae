@@ -1,69 +1,69 @@
 {
   "category": "install_on_request",
   "total_items": 10,
-  "start_date": "2020-08-27",
-  "end_date": "2020-09-26",
-  "total_count": 84,
+  "start_date": "2020-08-28",
+  "end_date": "2020-09-27",
+  "total_count": 81,
   "items": [
     {
-      "number": 4226,
+      "number": 4452,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "22",
-      "percent": "26.19"
+      "count": "19",
+      "percent": "23.45"
     },
     {
-      "number": 4892,
+      "number": 4870,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "15",
-      "percent": "17.85"
+      "percent": "18.51"
     },
     {
-      "number": 5653,
+      "number": 5622,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "10",
-      "percent": "11.9"
+      "percent": "12.34"
     },
     {
-      "number": 5848,
+      "number": 5803,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "9",
-      "percent": "10.71"
+      "percent": "11.11"
     },
     {
-      "number": 6327,
+      "number": 6302,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "7",
-      "percent": "8.33"
+      "percent": "8.64"
     },
     {
-      "number": 6677,
+      "number": 6653,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "6",
-      "percent": "7.14"
+      "percent": "7.4"
     },
     {
-      "number": 6678,
+      "number": 6654,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "6",
-      "percent": "7.14"
+      "percent": "7.4"
     },
     {
-      "number": 7566,
+      "number": 7522,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "4",
-      "percent": "4.76"
+      "percent": "4.93"
     },
     {
-      "number": 8300,
+      "number": 8257,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "3",
-      "percent": "3.57"
+      "percent": "3.7"
     },
     {
-      "number": 9503,
+      "number": 9464,
       "formula": "nodenv/nodenv/nodenv-update",
       "count": "2",
-      "percent": "2.38"
+      "percent": "2.46"
     }
   ]
 }
