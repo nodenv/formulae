@@ -1,18 +1,18 @@
 {
   "category": "install",
   "total_items": 2,
-  "start_date": "2020-09-03",
-  "end_date": "2020-10-03",
+  "start_date": "2020-09-04",
+  "end_date": "2020-10-04",
   "total_count": 2,
   "items": [
     {
-      "number": 3520,
+      "number": 3473,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "1",
       "percent": "50.0"
     },
     {
-      "number": 3521,
+      "number": 3474,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "1",
       "percent": "50.0"
