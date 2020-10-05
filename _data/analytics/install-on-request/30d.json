@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2020-09-04",
-  "end_date": "2020-10-04",
-  "total_count": 90,
+  "start_date": "2020-09-05",
+  "end_date": "2020-10-05",
+  "total_count": 88,
   "items": [
     {
-      "number": 4280,
+      "number": 4191,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "21",
-      "percent": "23.33"
+      "count": "22",
+      "percent": "25.0"
     },
     {
-      "number": 4369,
+      "number": 4276,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "20",
-      "percent": "22.22"
+      "count": "21",
+      "percent": "23.86"
     },
     {
-      "number": 5586,
+      "number": 5552,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "10",
-      "percent": "11.11"
+      "percent": "11.36"
     },
     {
-      "number": 5758,
+      "number": 5771,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "9",
-      "percent": "10.0"
+      "percent": "10.22"
     },
     {
-      "number": 5759,
-      "formula": "nodenv/nodenv/nodenv-nvmrc",
-      "count": "9",
-      "percent": "10.0"
-    },
-    {
-      "number": 6016,
+      "number": 5981,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "8",
-      "percent": "8.88"
+      "percent": "9.09"
     },
     {
-      "number": 6597,
-      "formula": "nodenv/nodenv/nodenv-aliases",
+      "number": 6589,
+      "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "6",
-      "percent": "6.66"
+      "percent": "6.81"
     },
     {
-      "number": 6993,
+      "number": 6959,
+      "formula": "nodenv/nodenv/nodenv-aliases",
+      "count": "5",
+      "percent": "5.68"
+    },
+    {
+      "number": 6960,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "5",
-      "percent": "5.55"
+      "percent": "5.68"
     },
     {
-      "number": 9344,
+      "number": 9296,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "2",
-      "percent": "2.22"
+      "percent": "2.27"
     }
   ]
 }

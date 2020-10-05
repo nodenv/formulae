@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2020-07-06",
-  "end_date": "2020-10-04",
-  "total_count": 286,
+  "start_date": "2020-07-07",
+  "end_date": "2020-10-05",
+  "total_count": 284,
   "items": [
     {
-      "number": 4373,
-      "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "60",
-      "percent": "20.97"
-    },
-    {
-      "number": 4374,
+      "number": 4330,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "60",
-      "percent": "20.97"
+      "count": "61",
+      "percent": "21.47"
     },
     {
-      "number": 5332,
+      "number": 4398,
+      "formula": "nodenv/nodenv/node-build-update-defs",
+      "count": "59",
+      "percent": "20.77"
+    },
+    {
+      "number": 5381,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "34",
-      "percent": "11.88"
+      "count": "33",
+      "percent": "11.61"
     },
     {
-      "number": 5576,
+      "number": 5566,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "30",
-      "percent": "10.48"
+      "percent": "10.56"
     },
     {
-      "number": 5638,
+      "number": 5630,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "29",
-      "percent": "10.13"
+      "percent": "10.21"
     },
     {
-      "number": 5689,
+      "number": 5684,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "28",
-      "percent": "9.79"
+      "percent": "9.85"
     },
     {
-      "number": 6293,
+      "number": 6278,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "21",
-      "percent": "7.34"
+      "percent": "7.39"
     },
     {
-      "number": 7367,
+      "number": 7558,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "13",
-      "percent": "4.54"
+      "count": "12",
+      "percent": "4.22"
     },
     {
-      "number": 7782,
+      "number": 7765,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "11",
-      "percent": "3.84"
+      "percent": "3.87"
     }
   ]
 }
