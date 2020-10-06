@@ -1,8 +1,8 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-07-07",
-  "end_date": "2020-10-04",
+  "start_date": "2020-07-08",
+  "end_date": "2020-10-05",
   "total_count": 2237,
   "items": [
     {
@@ -22,8 +22,8 @@
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 2063,
-      "percent": "92.22"
+      "count": 2062,
+      "percent": "92.17"
     },
     {
       "package": "@nodenv/nodenv-aliases",
@@ -62,8 +62,8 @@
     },
     {
       "package": "@nodenv/nodenv-update",
-      "count": 12,
-      "percent": "0.53"
+      "count": 13,
+      "percent": "0.58"
     },
     {
       "package": "@nodenv/nodenv-vars",
