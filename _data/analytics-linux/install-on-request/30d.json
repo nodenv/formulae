@@ -1,21 +1,15 @@
 {
   "category": "install_on_request",
-  "total_items": 2,
-  "start_date": "2020-09-08",
-  "end_date": "2020-10-08",
-  "total_count": 2,
+  "total_items": 1,
+  "start_date": "2020-09-09",
+  "end_date": "2020-10-09",
+  "total_count": 1,
   "items": [
     {
-      "number": 3235,
-      "formula": "nodenv/nodenv/nodenv-npm-migrate",
-      "count": "1",
-      "percent": "50.0"
-    },
-    {
-      "number": 3236,
+      "number": 3246,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "1",
-      "percent": "50.0"
+      "percent": "100.0"
     }
   ]
 }
