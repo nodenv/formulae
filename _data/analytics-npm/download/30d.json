@@ -1,74 +1,74 @@
 {
   "category": "download",
   "total_items": 13,
-  "start_date": "2020-09-14",
-  "end_date": "2020-10-13",
-  "total_count": 689,
+  "start_date": "2020-09-15",
+  "end_date": "2020-10-14",
+  "total_count": 700,
   "items": [
     {
       "package": "@nodenv/jetbrains-npm",
       "count": 8,
-      "percent": "1.16"
+      "percent": "1.14"
     },
     {
       "package": "@nodenv/node-build-jxcore",
-      "count": 6,
-      "percent": "0.87"
+      "count": 8,
+      "percent": "1.14"
     },
     {
       "package": "@nodenv/node-build-prerelease",
       "count": 10,
-      "percent": "1.45"
+      "percent": "1.42"
     },
     {
       "package": "@nodenv/node-build-update-defs",
-      "count": 619,
-      "percent": "89.84"
+      "count": 622,
+      "percent": "88.85"
     },
     {
       "package": "@nodenv/nodenv-aliases",
-      "count": 3,
-      "percent": "0.43"
+      "count": 5,
+      "percent": "0.71"
     },
     {
       "package": "@nodenv/nodenv-default-packages",
-      "count": 10,
-      "percent": "1.45"
+      "count": 9,
+      "percent": "1.28"
     },
     {
       "package": "@nodenv/nodenv-each",
       "count": 7,
-      "percent": "1.01"
+      "percent": "1.0"
     },
     {
       "package": "@nodenv/nodenv-man",
-      "count": 3,
-      "percent": "0.43"
+      "count": 4,
+      "percent": "0.57"
     },
     {
       "package": "@nodenv/nodenv-npm-migrate",
-      "count": 5,
-      "percent": "0.72"
+      "count": 6,
+      "percent": "0.85"
     },
     {
       "package": "@nodenv/nodenv-package-json-engine",
-      "count": 3,
-      "percent": "0.43"
+      "count": 4,
+      "percent": "0.57"
     },
     {
       "package": "@nodenv/nodenv-package-rehash",
       "count": 7,
-      "percent": "1.01"
+      "percent": "1.0"
     },
     {
       "package": "@nodenv/nodenv-update",
-      "count": 4,
-      "percent": "0.58"
+      "count": 6,
+      "percent": "0.85"
     },
     {
       "package": "@nodenv/nodenv-vars",
       "count": 4,
-      "percent": "0.58"
+      "percent": "0.57"
     }
   ]
 }
