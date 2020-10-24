@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-10-24",
-  "end_date": "2020-10-23",
-  "total_count": 1312,
+  "start_date": "2019-10-25",
+  "end_date": "2020-10-24",
+  "total_count": 1296,
   "items": [
     {
-      "number": 3723,
+      "number": 3761,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "372",
-      "percent": "28.35"
+      "count": "365",
+      "percent": "28.16"
     },
     {
-      "number": 3813,
+      "number": 3833,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "354",
-      "percent": "26.98"
+      "count": "348",
+      "percent": "26.85"
     },
     {
-      "number": 5222,
+      "number": 5221,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
       "count": "152",
-      "percent": "11.58"
+      "percent": "11.72"
     },
     {
-      "number": 5687,
+      "number": 5699,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "121",
-      "percent": "9.22"
+      "count": "120",
+      "percent": "9.25"
     },
     {
-      "number": 5969,
+      "number": 6037,
       "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "104",
-      "percent": "7.92"
+      "count": "101",
+      "percent": "7.79"
     },
     {
-      "number": 6344,
+      "number": 6319,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "87",
-      "percent": "6.63"
+      "count": "88",
+      "percent": "6.79"
     },
     {
-      "number": 7790,
+      "number": 7785,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "48",
-      "percent": "3.65"
+      "percent": "3.7"
     },
     {
-      "number": 8109,
+      "number": 8113,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "43",
-      "percent": "3.27"
+      "percent": "3.31"
     },
     {
-      "number": 9034,
+      "number": 9019,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "31",
-      "percent": "2.36"
+      "percent": "2.39"
     }
   ]
 }
