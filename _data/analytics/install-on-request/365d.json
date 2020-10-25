@@ -1,63 +1,63 @@
 {
   "category": "install_on_request",
   "total_items": 9,
-  "start_date": "2019-10-25",
-  "end_date": "2020-10-24",
-  "total_count": 1296,
+  "start_date": "2019-10-26",
+  "end_date": "2020-10-25",
+  "total_count": 1287,
   "items": [
     {
-      "number": 3761,
+      "number": 3770,
       "formula": "nodenv/nodenv/nodenv-default-packages",
-      "count": "365",
-      "percent": "28.16"
+      "count": "363",
+      "percent": "28.2"
     },
     {
-      "number": 3833,
+      "number": 3849,
       "formula": "nodenv/nodenv/node-build-update-defs",
-      "count": "348",
-      "percent": "26.85"
+      "count": "343",
+      "percent": "26.65"
     },
     {
-      "number": 5221,
+      "number": 5232,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "152",
-      "percent": "11.72"
+      "count": "151",
+      "percent": "11.73"
     },
     {
-      "number": 5699,
+      "number": 5718,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
-      "count": "120",
-      "percent": "9.25"
+      "count": "119",
+      "percent": "9.24"
     },
     {
-      "number": 6037,
+      "number": 6033,
       "formula": "nodenv/nodenv/nodenv-aliases",
       "count": "101",
-      "percent": "7.79"
+      "percent": "7.84"
     },
     {
-      "number": 6319,
+      "number": 6317,
       "formula": "nodenv/nodenv/jetbrains-npm",
       "count": "88",
-      "percent": "6.79"
+      "percent": "6.83"
     },
     {
-      "number": 7785,
+      "number": 7776,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "48",
-      "percent": "3.7"
+      "percent": "3.72"
     },
     {
-      "number": 8113,
+      "number": 8106,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "43",
-      "percent": "3.31"
+      "percent": "3.34"
     },
     {
-      "number": 9019,
+      "number": 9025,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "31",
-      "percent": "2.39"
+      "percent": "2.4"
     }
   ]
 }
