@@ -1,63 +1,63 @@
 {
   "category": "install",
   "total_items": 9,
-  "start_date": "2020-07-30",
-  "end_date": "2020-10-28",
-  "total_count": 254,
+  "start_date": "2020-07-31",
+  "end_date": "2020-10-29",
+  "total_count": 252,
   "items": [
     {
-      "number": 4691,
+      "number": 4695,
       "formula": "nodenv/nodenv/node-build-update-defs",
       "count": "61",
-      "percent": "24.01"
+      "percent": "24.2"
     },
     {
-      "number": 5091,
+      "number": 5095,
       "formula": "nodenv/nodenv/nodenv-default-packages",
       "count": "48",
-      "percent": "18.89"
+      "percent": "19.04"
     },
     {
-      "number": 5718,
+      "number": 5785,
       "formula": "nodenv/nodenv/nodenv-package-rehash",
-      "count": "34",
-      "percent": "13.38"
+      "count": "33",
+      "percent": "13.09"
     },
     {
-      "number": 6222,
-      "formula": "nodenv/nodenv/nodenv-aliases",
-      "count": "26",
-      "percent": "10.23"
-    },
-    {
-      "number": 6223,
+      "number": 6233,
       "formula": "nodenv/nodenv/nodenv-package-json-engine",
       "count": "26",
-      "percent": "10.23"
+      "percent": "10.31"
     },
     {
-      "number": 6468,
+      "number": 6391,
+      "formula": "nodenv/nodenv/nodenv-aliases",
+      "count": "24",
+      "percent": "9.52"
+    },
+    {
+      "number": 6478,
       "formula": "nodenv/nodenv/nodenv-nvmrc",
       "count": "23",
-      "percent": "9.05"
+      "percent": "9.12"
     },
     {
-      "number": 6992,
+      "number": 6870,
       "formula": "nodenv/nodenv/jetbrains-npm",
-      "count": "18",
-      "percent": "7.08"
+      "count": "19",
+      "percent": "7.53"
     },
     {
-      "number": 8397,
+      "number": 8404,
       "formula": "nodenv/nodenv/nodenv-npm-migrate",
       "count": "10",
-      "percent": "3.93"
+      "percent": "3.96"
     },
     {
-      "number": 8966,
+      "number": 8973,
       "formula": "nodenv/nodenv/nodenv-vars",
       "count": "8",
-      "percent": "3.14"
+      "percent": "3.17"
     }
   ]
 }
