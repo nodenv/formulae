@@ -7,15 +7,20 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v1
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
+      - uses: actions/cache@f5ce41475b483ad7581884324a6eca9f48f8dcc7 # v1.2.1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
-      - uses: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@e932e7af67fc4a8fc77bd86b744acd4e42fe3543 # v1.1.3
         with:
           ruby-version: 2.6
-      - uses: jasonkarns/setup-homebrew@master
+      - uses: jasonkarns/setup-homebrew@95e444e2d6ea787d58f7d687ecf7be58d8f6520d # master
         with: { taps: nodenv/nodenv }
       - run: bin/bundle install --deployment --jobs 4 --retry 3
       - run: bin/rake -m build

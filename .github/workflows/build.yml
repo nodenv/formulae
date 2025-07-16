@@ -3,21 +3,31 @@ on:
   push: { branches: master }
   schedule: [{ cron: '0 9 * * *' }] # daily at 1am PST
 
+permissions:
+  contents: read
+
 jobs:
   generate:
+    permissions:
+      contents: write  # for stefanzweifel/git-auto-commit-action to push code in repo
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
+        with:
+          egress-policy: audit
+
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
+      - uses: actions/setup-ruby@e932e7af67fc4a8fc77bd86b744acd4e42fe3543 # v1.1.3
         with:
           ruby-version: 2.6
-      - uses: actions/cache@v1
+      - uses: actions/cache@f5ce41475b483ad7581884324a6eca9f48f8dcc7 # v1.2.1
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
       - run: brew tap --shallow nodenv/nodenv
       - run: bin/bundle install --deployment --jobs 4 --retry 3
       - run: bin/rake -m all_formulae data:analytics cask
-      - uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      - uses: stefanzweifel/git-auto-commit-action@480e111bf8274f3bbd429aef51504f71c808e3e4 # v4.1.1
         with:
           commit_message: 'regenerated all formula and analytics data'
